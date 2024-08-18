@@ -10,6 +10,7 @@ export default function Home() {
           <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="w-[20rem] h-[20rem] rounded-full " />
           <img src="/fotopersonal.png" alt="logo" className="w-[20rem] h-[20rem] rounded-full mt-[5rem] -translate-x-[15rem]" />
         </div>
+        <div className="h-[35rem] w-[30rem] -mt-[3rem]">
         <span className="text-3xl ml-[7rem] font-bold text-yellow-500 underline m-1 shadow-lg shadow-yellow-600 p-2 rounded-lg border border-white text-center mx-auto">Francisco Guerra</span>
         {/* <span className="text-2xl font-bold text-orange-500 underline m-1">Fullstack Web Developer</span> */}
         <div className="w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
@@ -25,7 +26,8 @@ export default function Home() {
           <span className="text-2xl font-bold text-gray-100  " >Freelancer : <span className="text-xl font-bold text-violet-200">Trabajos por encargo.</span> </span>
         </div>
       </div>
-      <div className="flex w-[60rem] h-[90vh] bg-gray-200 items-start p-4 justify-start overflow-y-scroll overflow-x-hidden align-middle flex-col border-l-4 border-red-900">
+      </div>
+      <div className="flex w-[65rem] h-[90vh] bg-gray-200 items-start p-4 justify-start overflow-y-scroll overflow-x-hidden align-middle flex-col border-l-4 border-red-900">
         <div className="flex flex-col gap-4 p-[1rem]">
           <h1 className="text-3xl font-bold text-orange-300 underline m-1 border-b-4 border-orange-500 rounded-lg  w-[54rem] text-right">Fullstack Web Developer</h1>
         </div>
