@@ -44,9 +44,7 @@ body {
   perspective: -1000px;
   transform-style: preserve-3d;
   position:absolute;
-  top:-150px;
-  left:200px;
-  /* transform:rotateY(90deg) rotateX(90deg); */
+  top: -10rem;
   animation: rotate 10s linear infinite;
 }
 

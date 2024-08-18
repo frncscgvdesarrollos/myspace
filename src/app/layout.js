@@ -1,4 +1,4 @@
-import Cubo from "./components/Cubo";
+// import Cubo from "./components/Cubo";
 import "./globals.css";
 
 
@@ -10,9 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="overflow-hidden flex flex-col">
-          <Cubo />
-          <main>
+      <body className="flex ">
+          {/* <Cubo /> */}
+          <main className="">
             {children}
           </main>
       </body>
