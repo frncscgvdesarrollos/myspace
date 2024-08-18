@@ -43,7 +43,7 @@ body {
   perspective-origin: 1000px;
   perspective: -1000px;
   transform-style: preserve-3d;
-  position:absolute;
+  position:relative;
   top: -10rem;
   animation: rotate 10s linear infinite;
 }

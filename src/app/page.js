@@ -3,39 +3,38 @@ import Cubo from "./components/Cubo";
 
 export default function Home() {
   return (
-    <main className="flex lg:flex-row flex-col overflow-x-hidden overflow-y-hidden w-max-screen h-[90vh]">
-      <div className="flex-wrap lg:flex-col bg-gray-100 justify-start lg:items-center items-center py-4 px-4 border-l-4 border-red-900 h-[90vh]"> 
-        <Cubo />
-        <div className="flex mt-[50rem] lg:mt-[2rem] mx-auto w-[25rem] lg:h-[30rem]  ">
-          <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="w-[20rem] h-[20rem] rounded-full " />
-          <img src="/fotopersonal.png" alt="logo" className="w-[20rem] h-[20rem] rounded-full mt-[5rem] -translate-x-[15rem]" />
+    <main className="flex lg:flex-row flex-col overflow-x-hidden overflow-y-scroll">
+      <div className="flex flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center py-4 px-4 border-l-4 border-red-900"> 
+
+        <div className="flex mt-[50rem] lg:mt-[2rem] mx-auto w-[25rem] h-[30rem] " >
+          <Cubo  className="translate-x-[-20rem] translate-y-[-10rem] z-10"/>
+          <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="w-[20rem] h-[20rem] rounded-full mt-[2rem]  -translate-x-[5rem] " />
+          <img src="/fotopersonal.png" alt="logo" className="w-[20rem] h-[20rem] rounded-full mt-[5rem] -translate-x-[20rem] translate-y-[2rem]" />
         </div>
-        <div className="h-[35rem] w-[30rem] -mt-[5rem]">
-        <span className="text-3xl ml-[7rem] font-bold text-yellow-500 underline m-1 shadow-lg shadow-yellow-600 p-2 rounded-lg border border-white text-center mx-auto">Francisco Guerra</span>
+        <span className="text-3xl font-bold text-yellow-500 underline m-1 shadow-lg shadow-yellow-600 p-2 rounded-lg border border-white">Francisco Guerra</span>
         {/* <span className="text-2xl font-bold text-orange-500 underline m-1">Fullstack Web Developer</span> */}
-        <div className="w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
-          <span className="text-2xl font-bold text-gray-100  " >Actualmente : <span className="text-2xl font-bold text-violet-200">Buscando trabajo.</span> </span>
+        <div className="w-[20rem] md:w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
+          <span className="text-base md:text-2xl font-bold text-gray-100  " >Actualmente : <span className="text-base md:text-2xl font-bold text-violet-200">Buscando trabajo.</span> </span>
         </div>
-        <div className="w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
-          <span className="text-2xl font-bold text-gray-100  " >Idiomas : <span className="text-2xl font-bold text-violet-200">Español / Ingles B1.</span> </span>
+        <div className="w-[20rem] md:w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
+          <span className="text-base md:text-2xl font-bold text-gray-100  " >Idiomas : <span className="text-base md:text-2xl font-bold text-violet-200">Español / Ingles B1.</span> </span>
         </div>
-        <div className="w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
-          <span className="text-2xl font-bold text-gray-100  " >Cursando : <span className="text-xl font-bold text-violet-200">Tec. Desarrollo de software. </span> </span>
+        <div className="w-[20rem] md:w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
+          <span className="text-base md:text-2xl font-bold text-gray-100  " >Cursando : <span className="text-base md:text-xl font-bold text-violet-200">Tec. Desarrollo de software.</span> </span>
         </div>
-        <div className="w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
-          <span className="text-2xl font-bold text-gray-100  " >Freelancer : <span className="text-xl font-bold text-violet-200">Trabajos por encargo.</span> </span>
+        <div className="w-[20rem] md:w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
+          <span className="text-base md:text-2xl  font-bold text-gray-100  " >Freelancer : <span className="text-base md:text-xl font-bold text-violet-200">Trabajos por encargo.</span> </span>
         </div>
       </div>
-      </div>
-      <div className="flex w-[65rem] h-[90vh] bg-gray-200 items-start p-4 justify-start overflow-y-scroll overflow-x-hidden align-middle flex-col border-l-4 border-red-900">
+      <div className="flex lg:w-[60rem] h-[60rem] bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden h-[100vh] align-middle flex-col border-l-4 border-red-900">
         <div className="flex flex-col gap-4 p-[1rem]">
-          <h1 className="text-3xl font-bold text-orange-300 underline m-1 border-b-4 border-orange-500 rounded-lg  w-[54rem] text-right">Fullstack Web Developer</h1>
+          <h1 className="text-3xl font-bold text-orange-300 underline m-1 border-b-4 border-orange-500 rounded-lg  lg:w-[54rem] text-right">Fullstack Web Developer</h1>
         </div>
-        <div className="flex flex-col gap-4 p-4 my-[1rem]  w-[57rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
-          <h3 className="text-3xl bg-yellow-600 w-[14rem] rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-300 shadow-lg shadow-yellow-600 underline my-[2rem]">Hola Mundo!</h3>
-          <div className="flex justify-evenly items-center w-full gap-5 ml-[2rem] ">
-          <div className="w-[20rem] h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white " >
-            <p className="text-center text-2xl text-yellow-100 p-4 ">Soy</p> <span>
+        <div className="flex flex-col gap-4 p-4 my-[1rem]  lg:w-[57rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
+          <h3 className="text-3xl bg-yellow-600 lg:w-[14rem] rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-300 shadow-lg shadow-yellow-600 underline my-[2rem]">Hola Mundo!</h3>
+          <div className="flex justify-evenly items-center w-full gap-5 lg:ml-[2rem] ">
+          <div className="lg:w-[20rem] h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white " >
+            <p className="text-center text-xl lg:text-2xl text-yellow-100 p-4 ">Soy</p> <span>
 
               <div className="flex text-center justify-center items-center">
               <div className="flex flex-col w-[3rem]">
@@ -54,69 +53,67 @@ export default function Home() {
               </div>
 
               </div>
-            <p className="text-center text-2xl text-yellow-100 w-[20rem] -ml-[5rem]">
-              y tengo 31 años. Nacido en Capital Federal , criado en La Pampa tirando para Cordoba!
-             </p>
+            <p className="text-center text-xl lg:text-2xl text-yellow-100 lg:w-[20rem] lg:-ml-[5rem] -ml-[4rem]">              y tengo 31 años. Nacido en Capital Federal , criado en La Pampa tirando para Cordoba! </p>
             </span>
             </div>
           
-          <div className="w-[20rem] h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white" >
+          <div className="lg:w-[20rem] lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white" >
 
-              <p className="text-center text-2xl text-yellow-100">Soy fullstack web developer. Tengo 2 años de experiencia. </p>
+              <p className="text-center text-xl my-[2.5rem] lg:text-2xl text-yellow-100">Soy fullstack web developer. Tengo 2 años de experiencia. </p>
 
           </div>
           </div>
           <div className="flex justify-evenly items-center w-full gap-5 my-[1rem]">
-          <div className="w-[20rem] h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay2 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white" >
+          <div className="lg:w-[20rem] lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay2 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white" >
 
               <p className="text-center text-2xl text-yellow-100">En este momento estoy cursando la Tecnicatura de Desarrollo de software en ISSD de Cordoba. </p>
 
           </div>
-          <div className="w-[20rem] h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay3 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white" >
-            <p className="text-center text-xl text-yellow-100">Me encuentro abierto a trabajos como Freelancer y en busqueda de una oportunidad laboral en una empresa.</p>
+          <div className="lg:w-[20rem] lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay3 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white" >
+            <p className="text-center text-xl lg:text-2xl text-yellow-100">Me encuentro abierto a trabajos como Freelancer y en busqueda de una oportunidad laboral en una empresa.</p>
         </div>
         </div>
 
         </div>
-        <div className="flex flex-col gap-4 p-4 my-[2rem]  w-[57rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
+        <div className="flex flex-col gap-4 p-4 my-[2rem]  lg:w-[57rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
           <span className="text-2xl font-bold text-yellow-400 underline mt-[2rem] rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-200 shadow-lg shadow-yellow-600 underline  p-2 w-[33rem] my-[1rem] bg-yellow-600">Algunas de las tecnologias que manejo son :</span>
           <div className="flex-wrap flex-col w-full gap-5 p-10 ">
-          <div className="w-[15rem] h-[3rem] bg-red-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
+          <div className="lg:w-[15rem] h-[3rem] bg-red-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
 
               <p className="text-center text-2xl text-yellow-100">HTML</p>
 
           </div>
-          <div className="w-[25rem] h-[3rem]  bg-blue-200 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
+          <div className="lg:w-[25rem] h-[3rem]  bg-blue-200 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
 
             <p className="text-center text-2xl text-blue-500 font-bold">CSS - tailwind - mobile first</p>
 
           </div>
-        <div className="w-[30rem] h-[3rem]  bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
+        <div className="lg:w-[30rem] h-[3rem]  bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
 
         <p className="text-center text-2xl text-yellow-100">Javascript</p>
 
         </div>
-        <div className="w-[35rem] h-[3rem]  bg-cyan-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem] " >
+        <div className="lg:w-[35rem] h-[3rem]  bg-cyan-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem] " >
 
           <p className="text-center text-2xl text-yellow-100">React</p>
 
           </div>
-          <div className="w-[30rem] h-[3rem]  bg-green-700 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
+          <div className="lg:w-[30rem] h-[3rem]  bg-green-700 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
 
               <p className="text-center text-2xl text-yellow-500">Express</p>
 
           </div>
-          <div className="w-[38rem] h-[3rem]  bg-gray-700 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
+          <div className="lg:w-[38rem] h-[3rem]  bg-gray-700 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
 
             <p className="text-center text-2xl text-white">NextJs</p>
 
           </div>
-          <div className="w-[30rem] h-[3rem]  bg-lime-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
+          <div className="lg:w-[30rem] h-[3rem]  bg-lime-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
 
            <p className="text-center text-2xl text-yellow-100">MongoDB</p>
 
           </div>
-          <div className="w-[38rem] h-[3rem]  bg-orange-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
+          <div className="lg:w-[38rem] h-[3rem]  bg-orange-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
 
 <p className="text-center text-2xl text-yellow-100">Firebase</p>
 
@@ -124,15 +121,15 @@ export default function Home() {
           </div>
 
         </div>
-        <div className="flex flex-col gap-4 p-4 my-[2rem] w-[57rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
+        <div className="flex flex-col gap-4 p-4 my-[2rem] lg:w-[57rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
           <h3 className="text-2xl font-bold text-yellow-400 bg-yellow-600 w-[12rem] p-2 rounded-lg border border-white bg-opacity-70 shadow-lg shadow-yellow-600 underline my-[1rem] ">Mis proyectos:</h3>
           <div className="flex gap-5 w-full  justify-center p-5 bg-yellow-900 bg-opacity-50 rounded-lg border border-white shadow-lg shadow-yellow-600">
           <div className="flex flex-wrap gap-5 w-full  justify-center p-5 bg-yellow-900 bg-opacity-40 rounded-lg">
             <h2 className="text-3xl font-bold text-yellow-500 underline">Veterinaria - Turnero + E-commerce + integracion MP</h2>
-              <div className="w-[35rem] h-[20rem] flex">
-                <iframe src="https://magalimartinveterinaria.vercel.app" className="w-[40rem] h-[20rem] rounded-lg border border-white">
+              <div className="lg:w-[35rem] lg:h-[20rem] flex">
+                <iframe src="https://magalimartinveterinaria.vercel.app" className="lg:w-[40rem] h-[20rem] rounded-lg border border-white">
                 </iframe>
-                  <p className="text-center text-1xl text-yellow-100 w-[20rem] text-xl py-[6rem] transform rotate-[4deg] shadow-lg shadow-yellow-600 rounded-lg bg-yellow-500 h-[20rem]">
+                  <p className="text-center text-1xl text-yellow-100 lg:w-[20rem] text-xl py-[2rem] lg:py-[6rem] transform rotate-[4deg] shadow-lg shadow-yellow-600 rounded-lg bg-yellow-500 lg:h-[20rem]">
                     Este proyecto fue muy apasionante para mi porque es mi primera aplicacion web. <br/>
 
                     
@@ -146,7 +143,7 @@ export default function Home() {
           </div>
           </div>
         </div>
-      <div className="flex flex-col gap-4 p-4  z-[999] border border-white shadow-lg shadow-yellow-600 rounded-lg w-[57rem] mx-auto " > 
+      <div className="flex flex-col gap-4 p-4  z-[999] border border-white shadow-lg shadow-yellow-600 rounded-lg lg:w-[57rem] mx-auto " > 
         <h2 className="text-2xl font-bold text-yellow-600 my-[1rem]">En este momento puedes contactarme para realizar  Landings Page .</h2>
         <p className="text-1xl text-yellow-600 bg-yellow-200 p-10 rounded-lg bg-opacity-90 my-[1rem] ">
         <span className="text-2xl font-bold text-yellow-400 pb-5">Dejame explicarte que son </span><br/>
