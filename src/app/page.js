@@ -3,7 +3,7 @@ import Cubo from "./components/Cubo";
 
 export default function Home() {
   return (
-    <main className="flex lg:flex-row flex-col overflow-x-hidden overflow-y-scroll">
+    <main className="flex lg:flex-row flex-col overflow-x-hidden overflow-y-scroll lg:overflow-hidden w-[100vw] md:w-[100vw] lg:w-[80vw] mx-auto">
       <div className="flex flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center py-4 px-4 border-l-4 border-red-900"> 
 
         <div className="flex mt-[50rem] lg:mt-[2rem] mx-auto w-[25rem] h-[30rem] " >
@@ -33,7 +33,7 @@ export default function Home() {
         <div className="flex flex-col gap-4 p-4 my-[1rem]  lg:w-[57rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
           <h3 className="text-3xl bg-yellow-600 lg:w-[14rem] rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-300 shadow-lg shadow-yellow-600 underline my-[2rem]">Hola Mundo!</h3>
           <div className="flex justify-evenly items-center w-full gap-5 lg:ml-[2rem] ">
-          <div className="lg:w-[20rem] h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white " >
+          <div className="lg:w-[20rem] lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white " >
             <p className="text-center text-xl lg:text-2xl text-yellow-100 p-4 ">Soy</p> <span>
 
               <div className="flex text-center justify-center items-center">
@@ -121,25 +121,23 @@ export default function Home() {
           </div>
 
         </div>
-        <div className="flex flex-col gap-4 p-4 my-[2rem] lg:w-[57rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
-          <h3 className="text-2xl font-bold text-yellow-400 bg-yellow-600 w-[12rem] p-2 rounded-lg border border-white bg-opacity-70 shadow-lg shadow-yellow-600 underline my-[1rem] ">Mis proyectos:</h3>
-          <div className="flex gap-5 w-full  justify-center p-5 bg-yellow-900 bg-opacity-50 rounded-lg border border-white shadow-lg shadow-yellow-600">
-          <div className="flex flex-wrap gap-5 w-full  justify-center p-5 bg-yellow-900 bg-opacity-40 rounded-lg">
-            <h2 className="text-3xl font-bold text-yellow-500 underline">Veterinaria - Turnero + E-commerce + integracion MP</h2>
+        <div className="flex flex-col gap-4 lg:p-4 my-[2rem] lg:w-[57rem] lg:mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
+          <h3 className="text-2xl font-bold text-yellow-400 bg-yellow-600 lg:w-[12rem] p-2 rounded-lg border border-white bg-opacity-70 shadow-lg shadow-yellow-600 underline my-[1rem] ">Mis proyectos:</h3>
+          <div className="flex flex-wrap gap-5 w-full  justify-center p-5 bg-yellow-900 bg-opacity-50 rounded-lg border border-white shadow-lg shadow-yellow-600">
+          <div className="flex flex-wrap md:flex md:flex-row gap-2 w-full  justify-center p-5 bg-yellow-900 bg-opacity-40 rounded-lg">
+            <h2 className="lg:text-3xl font-bold text-yellow-500 underline">Veterinaria - Turnero + E-commerce + integracion MP</h2>
               <div className="lg:w-[35rem] lg:h-[20rem] flex">
-                <iframe src="https://magalimartinveterinaria.vercel.app" className="lg:w-[40rem] h-[20rem] rounded-lg border border-white">
+                <iframe src="https://magalimartinveterinaria.vercel.app" className="lg:w-[40rem] lg:h-[20rem] rounded-lg border border-white">
                 </iframe>
-                  <p className="text-center text-1xl text-yellow-100 lg:w-[20rem] text-xl py-[2rem] lg:py-[6rem] transform rotate-[4deg] shadow-lg shadow-yellow-600 rounded-lg bg-yellow-500 lg:h-[20rem]">
-                    Este proyecto fue muy apasionante para mi porque es mi primera aplicacion web. <br/>
-
-                    
+                  <p className="text-center text-2xl text-yellow-100 lg:w-[20rem] lg:py-[2rem] lg:py-[6rem] transform rotate-[4deg] shadow-lg shadow-yellow-600 rounded-lg bg-yellow-500  h-fit">
+                    Este proyecto fue muy apasionante para mi porque es mi primera aplicacion web.                    
                   </p>
               </div>
-              <p className="text-center text-2xl text-yellow-100">Esta hecho con NextJs y Firebase</p>
+              <p className="text-center lg:text-2xl text-yellow-100">Esta hecho con NextJs y Firebase</p>
 
           </div>
-          <div className="flex flex-wrap gap-5 w-[5rem]   justify-center  bg-yellow-900 hover:bg-opacity-10 h-[4rem] my-[14rem] shadow-lg shadow-yellow-600 rounded-lg">
-            <button className="text-3xl font-bold text-yellow-100 hover:text-yellow-500 underline hover:text-yellow-100  p-2  hover:rounded-lg transition duration-300">Next</button>
+          <div className="flex flex-wrap gap-5 lg:w-[5rem]   justify-center  bg-yellow-900 hover:bg-opacity-10 h-[4rem] shadow-lg shadow-yellow-600 rounded-lg">
+            <button className="lg:text-3xl font-bold text-yellow-100 hover:text-yellow-500 underline hover:text-yellow-100  p-2  hover:rounded-lg transition duration-300">Next</button>
           </div>
           </div>
         </div>
@@ -154,16 +152,14 @@ export default function Home() {
         </p>
 
         <div className="flex flex-wrap gap-5 w-full  justify-center p-5 bg-yellow-900 bg-opacity-50 rounded-lg border border-white shadow-lg shadow-yellow-600">
-        <div className="w-[18rem] h-[12rem] bg-white shadow-lg p-4 rounded-lg flex items-center hover:scale-110 transition duration-300">
-          <div className="bg-blue-600 text-white p-3 rounded-full mr-4">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l6.16-3.422A12.083 12.083 0 0118 15.25C18 19.852 15.09 23.998 12 23.998 8.91 23.998 6 19.852 6 15.25c0-1.206.32-2.36.84-3.422L12 14z" />
-            </svg>
+        <div className="w-[18rem] h-[12rem] bg-blue-200 shadow-lg p-4 rounded-lg flex items-center hover:scale-110 transition duration-300">
+          <div className="border-2 border-blue-600 p-4 w-full rounded-lg">
+          <div className="bg-blue-600 text-white p-3 rounded-full mr-4 w-12 h-12">
+              <span className="text-3xl font-bold text-white">&#9733;</span>
           </div>
-          <div>
-            <h6 className="text-gray-800 font-bold">Título del Componente</h6>
-            <p className="text-gray-600 text-sm">Descripción breve del contenido o función del componente.</p>
+            <h6 className="text-gray-800 font-bold text-sm underline">Tu producto</h6>
+            <p className="text-gray-600 text-sm font-bold">El mejor en precio calidad!.</p>
+            <button className="text-blue-600 font-bold border border-blue-600 py-1 px-2 rounded hover:bg-blue-600 hover:text-white my-2 ml-28">Comprar !!</button>
           </div>
         </div>
         <div className="w-[18rem] h-[12rem] bg-gray-100 shadow-md p-4 rounded-lg hover:scale-110 transition duration-300">
