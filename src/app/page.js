@@ -17,7 +17,7 @@ export default function Home() {
           <span className="text-2xl font-bold text-gray-100  " >Idiomas : <span className="text-2xl font-bold text-violet-200">Español / Ingles B1.</span> </span>
         </div>
         <div className="w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
-          <span className="text-2xl font-bold text-gray-100  " >Cursando : <span className="text-xl font-bold text-violet-200">Tecnicatura Desarrollo de software.</span> </span>
+          <span className="text-2xl font-bold text-gray-100  " >Cursando : <span className="text-xl font-bold text-violet-200">Tec Desarrollo de software. / 2° año.</span> </span>
         </div>
         <div className="w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
           <span className="text-2xl font-bold text-gray-100  " >Freelancer : <span className="text-xl font-bold text-violet-200">Trabajos por encargo.</span> </span>
@@ -50,7 +50,9 @@ export default function Home() {
               </div>
 
               </div>
-            <p className="text-center text-2xl text-yellow-100 w-[20rem] -ml-[5rem]">              y tengo 31 años. Nacido en Capital Federal , criado en La Pampa tirando para Cordoba! </p>
+            <p className="text-center text-2xl text-yellow-100 w-[20rem] -ml-[5rem]">
+              y tengo 31 años. Nacido en Capital Federal , criado en La Pampa tirando para Cordoba!
+             </p>
             </span>
             </div>
           
