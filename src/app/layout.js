@@ -10,9 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="flex bg-slate-900">
+      <body className="w-[20rem] md:w-[40rem] lg:w-[60rem] mx-auto">
           {/* <Cubo /> */}
-          <main className="overflow-hidden">
+          <main className="mt-32 md:mt-10 lg:mt-0">
             {children}
           </main>
       </body>
