@@ -28,17 +28,16 @@ export default function Home() {
         {/* <span className="text-2xl font-bold text-orange-500 underline m-1">Fullstack Web Developer</span> */}
       </div>
       <div className="flex flex-col w-[100vw] lg:w-[60vw] h-[100%] mx-auto lg:h-[90vh] bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden lg:my-auto lg:w-[70vw] lg:h-[90vh] align-middle flex-col border-l-4 border-red-900">
-        <div className="flex flex-col gap-4 p-[1rem] w-[90vw] mx-auto">
+        <div className="flex flex-col gap-4 p-[1rem] w-[90vw] lg:w-[55vw] mx-auto">
           <h1 className="text-3xl font-bold text-orange-300 underline m-1 border-b-4 border-orange-500 rounded-lg   text-right">Fullstack Web Developer</h1>
         </div>
         <div className="flex flex-col gap-4 p-4 my-[1rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg w-[90vw] lg:w-[55vw] mx-auto">
           <h3 className="text-3xl bg-yellow-600  rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-300 shadow-lg shadow-yellow-600 underline my-[2rem]">Hola Mundo!</h3>
         
-          <div className="flex justify-evenly items-center w-full gap-5 ">
-          <div className="lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white " >
-            <p className="text-center text-xl lg:text-2xl text-yellow-100 p-4 ">Soy</p> <span>
-
+          <div className="flex flex-col md:flex-row justify-evenly items-center w-full gap-5 ">
+          <div className="lg:h-[10rem] w-[80vw] lg:w-[20rem] bg-yellow-500 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex flex-col border border-white justify-center  " >
               <div className="flex text-center justify-center items-center">
+              <p className="text-center text-xl lg:text-2xl text-yellow-100 p-4">Soy</p> 
               <div className="flex flex-col w-[3rem]">
               <span>&#9733;</span>
 
@@ -55,24 +54,25 @@ export default function Home() {
               </div>
 
               </div>
-            <p className="text-center text-xl lg:text-2xl text-yellow-100 lg:w-[20rem] lg:-ml-[5rem] -ml-[4rem]">              y tengo 31 años. Nacido en Capital Federal , criado en La Pampa tirando para Cordoba! </p>
-            </span>
-            </div>
+            <p className="text-center text-xl lg:text-xl text-yellow-100 lg:w-[20rem] lg:-ml-[0.5rem] ">
+                            y tengo 31 años. Nacido en Capital Federal , criado en La Pampa tirando para Cordoba!
+             </p>
+           </div>
           
-          <div className="lg:w-[20rem] lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white" >
+          <div className="lg:w-[20rem] w-[80vw] px-2 lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white" >
 
               <p className="text-center text-xl my-[2.5rem] lg:text-2xl text-yellow-100">Soy fullstack web developer. Tengo 2 años de experiencia. </p>
 
           </div>
           </div>
 
-          <div className="flex justify-evenly items-center w-full gap-5 ">
-          <div className="lg:w-[20rem] lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay2 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white" >
+          <div className="flex flex-col md:flex-row justify-evenly items-center w-full gap-5 ">
+          <div className="lg:w-[20rem] w-[80vw] w-full lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay2 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white" >
 
               <p className="text-center text-xl text-yellow-100 my-auto">En este momento estoy cursando la Tecnicatura de Desarrollo de software en ISSD de Cordoba. </p>
 
           </div>
-          <div className="lg:w-[20rem] lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay3 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white" >
+          <div className="lg:w-[20rem] w-[80vw] lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay3 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white" >
             <p className="text-center text-xl lg:text-xl my-auto text-yellow-100">Me encuentro abierto a trabajos como Freelancer y en busqueda de una oportunidad laboral en una empresa.</p>
         </div>
         </div>
