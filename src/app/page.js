@@ -70,11 +70,11 @@ export default function Home() {
           <div className="flex justify-evenly items-center w-full gap-5 ">
           <div className="lg:w-[20rem] lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay2 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white" >
 
-              <p className="text-center text-2xl text-yellow-100">En este momento estoy cursando la Tecnicatura de Desarrollo de software en ISSD de Cordoba. </p>
+              <p className="text-center text-xl text-yellow-100 my-auto">En este momento estoy cursando la Tecnicatura de Desarrollo de software en ISSD de Cordoba. </p>
 
           </div>
           <div className="lg:w-[20rem] lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay3 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white" >
-            <p className="text-center text-xl lg:text-2xl text-yellow-100">Me encuentro abierto a trabajos como Freelancer y en busqueda de una oportunidad laboral en una empresa.</p>
+            <p className="text-center text-xl lg:text-xl my-auto text-yellow-100">Me encuentro abierto a trabajos como Freelancer y en busqueda de una oportunidad laboral en una empresa.</p>
         </div>
         </div>
 
