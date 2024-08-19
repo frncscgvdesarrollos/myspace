@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <main className="flex lg:flex-row flex-col overflow-x-hidden overflow-y-scroll lg:overflow-hidden w-[90vw] mx-auto h-[100vh] lg:my-auto">
       <div className="flex w-[85vw] mx-auto flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center py-4 px-4 border-l-4 border-red-900 lg:w-[30vw] lg:h-[90vh]  lg:my-auto"> 
-        <div className="flex  mx-auto  h-[40vh] mx-auto border-4 border-white" >
-          <Cubo  className="translate-x-[-20rem] translate-y-[-10rem] z-10"/>
-          <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="w-full h-full rounded-full mt-[2rem]  -translate-x-[3vw] " />
-          <img src="/fotopersonal.png" alt="logo" className="w-full h-full rounded-full mt-[5rem] -translate-x-[4rem] lg:-translate-x-[17vw] translate-y-[2rem]" />
+        <div className="flex  mx-auto  h-[40vh] mx-auto " >
+          <Cubo  />
+          <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="" />
+          <img src="/fotopersonal.png" alt="logo" className="" />
         </div>
         <span className="text-3xl   font-bold text-yellow-200 underline mt-[7vh] shadow-lg shadow-yellow-600 p-2 rounded-lg border border-white z-10 bg-yellow-500">Francisco Guerra</span>
         <div className="flex flex-col lg:h-[40vh] border-4 border-white my-auto pt-[7vh] px-4">
