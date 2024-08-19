@@ -32,6 +32,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-4 p-4 my-[1rem]  mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg w-[55vw] mx-auto">
           <h3 className="text-3xl bg-yellow-600  rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-300 shadow-lg shadow-yellow-600 underline my-[2rem]">Hola Mundo!</h3>
+        
           <div className="flex justify-evenly items-center w-full gap-5 ">
           <div className="lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white " >
             <p className="text-center text-xl lg:text-2xl text-yellow-100 p-4 ">Soy</p> <span>
@@ -63,7 +64,8 @@ export default function Home() {
 
           </div>
           </div>
-          <div className="flex justify-evenly items-center w-full gap-5 my-[1rem]">
+
+          <div className="flex justify-evenly items-center w-full gap-5 ">
           <div className="lg:w-[20rem] lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay2 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white" >
 
               <p className="text-center text-2xl text-yellow-100">En este momento estoy cursando la Tecnicatura de Desarrollo de software en ISSD de Cordoba. </p>
