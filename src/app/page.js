@@ -26,7 +26,7 @@ export default function Home() {
           <span className="text-base md:text-2xl  font-bold text-gray-100  " >Freelancer : <span className="text-base md:text-xl font-bold text-violet-200">Trabajos por encargo.</span> </span>
         </div>
       </div>
-      <div className="flex lg:w-[60vw]   bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden h-[100vh] lg:h-[70vh] align-middle flex-col border-l-4 border-red-900">
+      <div className="flex  bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden h-[100vh] lg:w-[70vw] align-middle flex-col border-l-4 border-red-900">
         <div className="flex flex-col gap-4 p-[1rem]">
           <h1 className="text-3xl font-bold text-orange-300 underline m-1 border-b-4 border-orange-500 rounded-lg   text-right">Fullstack Web Developer</h1>
         </div>
