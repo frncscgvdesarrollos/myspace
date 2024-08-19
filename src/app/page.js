@@ -8,7 +8,7 @@ export default function Home() {
         <div className="flex  h-[40vh] mx-auto w-[100vw] justify-center " >
           <Cubo className=""  />
           <div className="flex h-[40vh] w-[40vh] justify-center">
-          <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="h-[30vh] translate-y-[4rem] translate-x-[0rem] mx-auto rounded-full" />
+          <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="h-[30vh] translate-y-[4rem] translate-x-[1rem] mx-auto rounded-full" />
           <img src="/fotopersonal.png" alt="logo" className="h-[30vh] rounded-full mx-auto translate-y-[9rem] translate-x-[-9rem]" />
           </div>
         </div>
