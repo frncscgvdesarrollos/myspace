@@ -4,7 +4,7 @@ import Cubo from "./components/Cubo";
 export default function Home() {
   return (
     <main className="flex lg:flex-row flex-col overflow-x-hidden overflow-y-scroll lg:overflow-hidden w-[100vw] md:w-[100vw] lg:w-[80vw] mx-auto">
-      <div className="flex flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center py-4 px-4 border-l-4 border-red-900"> 
+      <div className="flex lg:w-[35%] flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center py-4 px-4 border-l-4 border-red-900"> 
 
         <div className="flex mt-[1rem] lg:mt-[2rem] mx-auto w-[25rem] lg:h-[30rem] " >
           <Cubo  className="translate-x-[-20rem] translate-y-[-10rem] z-10"/>
@@ -26,7 +26,7 @@ export default function Home() {
           <span className="text-base md:text-2xl  font-bold text-gray-100  " >Freelancer : <span className="text-base md:text-xl font-bold text-violet-200">Trabajos por encargo.</span> </span>
         </div>
       </div>
-      <div className="flex bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden align-middle flex-col border-l-4 border-red-900">
+      <div className="flex lg:w-[65%] bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden align-middle flex-col border-l-4 border-red-900">
         <div className="flex flex-col gap-4 p-[1rem]">
           <h1 className="text-3xl font-bold text-orange-300 underline m-1 border-b-4 border-orange-500 rounded-lg  lg:w-[54rem] text-right">Fullstack Web Developer</h1>
         </div>
