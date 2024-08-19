@@ -7,6 +7,7 @@ body {
   color: gold !important;
   height: 100vh;
   background: linear-gradient(to top,gold 10% , whitesmoke 20%);
+  background-repeat: no-repeat;
   color: whitesmoke;
   display: flex;
   justify-content: center;
@@ -167,8 +168,9 @@ body {
 
 @media (max-width: 640px) {
   body{
-    overflow-x: hidden;
-    height: fit-content !important;
+
+    height: 100%;
+    background: linear-gradient(to top, gold 10% , whitesmoke 20%);
   }
 
 }

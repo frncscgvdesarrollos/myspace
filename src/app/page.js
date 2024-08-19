@@ -3,9 +3,9 @@ import Cubo from "./components/Cubo";
 
 export default function Home() {
   return (
-    <main className="flex lg:flex-row flex-col overflow-x-hidden overflow-y-scroll lg:overflow-hidden w-[100vw] lg:w-[90vw] mx-auto h-[100vh] lg:my-auto">
+    <main className="flex flex-col lg:flex-row absolute top-0 left-0  lg:position-fixed lg:top-[1vh] lg:left-[5vw] l lg:overflow-hidden w-[100vw] lg:w-[90vw] mx-auto lg:h-[100vh] lg:my-auto ">
       <div className="flex w-[100vw] mx-auto flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center lg:py-4 lg:px-4 border-l-4 border-red-900 lg:w-[30vw] lg:h-[90vh]  lg:my-auto"> 
-        <div className="flex  h-[40vh] mx-auto w-[100vw] justify-center " >
+        <div className="flex  h-[40vh] mx-auto w-[100vw] justify-center lg:w-[30vw] " >
           <Cubo className=""  />
           <div className="flex h-[40vh] w-[40vh] justify-center translate-x-[1rem]">
           <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="h-[30vh] translate-y-[4rem] translate-x-[1rem] mx-auto rounded-full" />
