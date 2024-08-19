@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex lg:flex-row flex-col overflow-x-hidden overflow-y-scroll lg:overflow-hidden w-[100vw] md:w-[100vw] lg:w-[80vw] mx-auto">
       <div className="flex flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center py-4 px-4 border-l-4 border-red-900"> 
 
-        <div className="flex mt-[5rem] lg:mt-[2rem] mx-auto w-[25rem] h-[30rem] " >
+        <div className="flex mt-[20rem] md:mt-[10rem]  lg:mt-[2rem] mx-auto w-[25rem] h-[30rem] " >
           <Cubo  className="translate-x-[-20rem] translate-y-[-10rem] z-10"/>
           <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="w-[20rem] h-[20rem] rounded-full mt-[2rem]  -translate-x-[5rem] " />
           <img src="/fotopersonal.png" alt="logo" className="w-[20rem] h-[20rem] rounded-full mt-[5rem] -translate-x-[20rem] translate-y-[2rem]" />
@@ -159,7 +159,7 @@ export default function Home() {
           </div>
             <h6 className="text-gray-800 font-bold text-sm underline">Tu producto</h6>
             <p className="text-gray-600 text-sm font-bold">El mejor en precio calidad!.</p>
-            <button className="text-blue-600 font-bold border border-blue-600 py-1 px-2 rounded hover:bg-blue-600 hover:text-white my-2 ml-28">Comprar !!</button>
+            <button className="text-blue-600 font-bold border border-blue-600 py-1 px-2 rounded hover:bg-blue-600 hover:text-white my-2 ml-2">Comprar !!</button>
           </div>
         </div>
         <div className="w-[18rem] h-[12rem] bg-gray-100 shadow-md p-4 rounded-lg hover:scale-110 transition duration-300">
