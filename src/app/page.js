@@ -12,17 +12,14 @@ export default function Home() {
         </div>
         <span className="text-3xl   font-bold text-yellow-200 underline mt-[7vh] shadow-lg shadow-yellow-600 p-2 rounded-lg border border-white z-10 bg-yellow-500">Francisco Guerra</span>
         <div className="flex flex-col lg:h-[40vh] border-4 border-white my-auto pt-[7vh] px-4">
-          <div className="w-[20rem] lg:w-[25vw] md:w-[30rem] bg-yellow-500  shadow-lg shadow-yellow-600 mt-[2rem] lg:mt-0 p-2 rounded-lg border border-white">
-            <span className="text-base md:text-2xl font-bold text-gray-100  " >Actualmente : <span className="text-base md:text-2xl font-bold text-violet-200">Buscando trabajo.</span> </span>
+          <div className="w-[20rem] lg:w-[25vw] md:w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
+            <span className="text-base md:text-2xl  font-bold text-gray-100  " >Freelancer : <span className="text-base md:text-xl font-bold text-violet-200">Trabajos por encargo.</span> </span>
           </div>
           <div className="w-[20rem] lg:w-[25vw] md:w-[30rem] bg-yellow-500   shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
             <span className="text-base md:text-2xl font-bold text-gray-100  " >Idiomas : <span className="text-base md:text-2xl font-bold text-violet-200">Español / Ingles B1.</span> </span>
           </div>
           <div className="w-[20rem] lg:w-[25vw] md:w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
             <span className="text-base md:text-2xl font-bold text-gray-100  " >Cursando : <span className="text-base md:text-xl font-bold text-violet-200">Tec. Desarrollo de software.</span> </span>
-          </div>
-          <div className="w-[20rem] lg:w-[25vw] md:w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
-            <span className="text-base md:text-2xl  font-bold text-gray-100  " >Freelancer : <span className="text-base md:text-xl font-bold text-violet-200">Trabajos por encargo.</span> </span>
           </div>
 
         </div>
