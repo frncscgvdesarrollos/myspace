@@ -165,3 +165,10 @@ body {
   transform: rotateX(180deg);
 }
 
+@media (max-width: 640px) {
+  body{
+    overflow-x: hidden;
+    height: fit-content !important;
+  }
+
+}
