@@ -5,28 +5,30 @@ export default function Home() {
   return (
     <main className="flex lg:flex-row flex-col overflow-x-hidden overflow-y-scroll lg:overflow-hidden w-[90vw] mx-auto h-[100vh]">
       <div className="flex flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center py-4 px-4 border-l-4 border-red-900 lg:w-[30vw] lg:h-[100vh]"> 
+        <div className="lg:h-[60rem] flex flex-col items-center justify-center">
 
-        <div className="flex    lg:mt-[2rem] mx-auto w-[30rem] h-[30rem] " >
-          <Cubo  className="translate-x-[-20rem] translate-y-[-10rem] z-10"/>
-          <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="w-[20rem] h-[20rem] rounded-full mt-[2rem]  -translate-x-[5rem] " />
-          <img src="/fotopersonal.png" alt="logo" className="w-[20rem] h-[20rem] rounded-full mt-[5rem] -translate-x-[20rem] translate-y-[2rem]" />
+            <div className="flex    lg:mt-[2rem] mx-auto w-[30rem] h-[30rem] " >
+              <Cubo  className="translate-x-[-20rem] translate-y-[-10rem] z-10"/>
+              <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="w-[20rem] h-[20rem] rounded-full mt-[2rem]  -translate-x-[5rem] " />
+              <img src="/fotopersonal.png" alt="logo" className="w-[20rem] h-[20rem] rounded-full mt-[5rem] -translate-x-[20rem] translate-y-[2rem]" />
+            </div>
+            <span className="text-3xl font-bold text-yellow-500 underline m-1 shadow-lg shadow-yellow-600 p-2 rounded-lg border border-white">Francisco Guerra</span>
+            {/* <span className="text-2xl font-bold text-orange-500 underline m-1">Fullstack Web Developer</span> */}
+            <div className="w-[20rem] md:w-[30rem] bg-yellow-500  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
+              <span className="text-base md:text-2xl font-bold text-gray-100  " >Actualmente : <span className="text-base md:text-2xl font-bold text-violet-200">Buscando trabajo.</span> </span>
+            </div>
+            <div className="w-[20rem] md:w-[30rem] bg-yellow-500   shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
+              <span className="text-base md:text-2xl font-bold text-gray-100  " >Idiomas : <span className="text-base md:text-2xl font-bold text-violet-200">Español / Ingles B1.</span> </span>
+            </div>
+            <div className="w-[20rem] md:w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
+              <span className="text-base md:text-2xl font-bold text-gray-100  " >Cursando : <span className="text-base md:text-xl font-bold text-violet-200">Tec. Desarrollo de software.</span> </span>
+            </div>
+            <div className="w-[20rem] md:w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
+              <span className="text-base md:text-2xl  font-bold text-gray-100  " >Freelancer : <span className="text-base md:text-xl font-bold text-violet-200">Trabajos por encargo.</span> </span>
+            </div>
+          </div>
         </div>
-        <span className="text-3xl font-bold text-yellow-500 underline m-1 shadow-lg shadow-yellow-600 p-2 rounded-lg border border-white">Francisco Guerra</span>
-        {/* <span className="text-2xl font-bold text-orange-500 underline m-1">Fullstack Web Developer</span> */}
-        <div className="w-[20rem] md:w-[30rem] bg-yellow-500  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
-          <span className="text-base md:text-2xl font-bold text-gray-100  " >Actualmente : <span className="text-base md:text-2xl font-bold text-violet-200">Buscando trabajo.</span> </span>
-        </div>
-        <div className="w-[20rem] md:w-[30rem] bg-yellow-500   shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
-          <span className="text-base md:text-2xl font-bold text-gray-100  " >Idiomas : <span className="text-base md:text-2xl font-bold text-violet-200">Español / Ingles B1.</span> </span>
-        </div>
-        <div className="w-[20rem] md:w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
-          <span className="text-base md:text-2xl font-bold text-gray-100  " >Cursando : <span className="text-base md:text-xl font-bold text-violet-200">Tec. Desarrollo de software.</span> </span>
-        </div>
-        <div className="w-[20rem] md:w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
-          <span className="text-base md:text-2xl  font-bold text-gray-100  " >Freelancer : <span className="text-base md:text-xl font-bold text-violet-200">Trabajos por encargo.</span> </span>
-        </div>
-      </div>
-      <div className="flex w-[100vw] lg:h-[100vh] bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden h-fit lg:w-[70vw] align-middle flex-col border-l-4 border-red-900">
+      <div className="flex flex-col items-center justify-center w-[100vw] lg:h-[100vh] bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden h-fit lg:w-[70vw] align-middle flex-col border-l-4 border-red-900">
         <div className="flex flex-col gap-4 p-[1rem] w-[55vw] mx-auto">
           <h1 className="text-3xl font-bold text-orange-300 underline m-1 border-b-4 border-orange-500 rounded-lg   text-right">Fullstack Web Developer</h1>
         </div>
