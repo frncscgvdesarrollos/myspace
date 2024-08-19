@@ -26,7 +26,7 @@ export default function Home() {
           <span className="text-base md:text-2xl  font-bold text-gray-100  " >Freelancer : <span className="text-base md:text-xl font-bold text-violet-200">Trabajos por encargo.</span> </span>
         </div>
       </div>
-      <div className="flex  bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden h-[100vh] lg:w-[70vw] align-middle flex-col border-l-4 border-red-900">
+      <div className="flex w-[60vw] bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden h-[100vh] lg:w-[70vw] align-middle flex-col border-l-4 border-red-900">
         <div className="flex flex-col gap-4 p-[1rem]">
           <h1 className="text-3xl font-bold text-orange-300 underline m-1 border-b-4 border-orange-500 rounded-lg   text-right">Fullstack Web Developer</h1>
         </div>
@@ -125,6 +125,8 @@ export default function Home() {
           <h3 className="text-2xl font-bold text-yellow-400 bg-yellow-600 lg:w-[12rem] p-2 rounded-lg border border-white bg-opacity-70 shadow-lg shadow-yellow-600 underline my-[1rem] ">Mis proyectos:</h3>
           <div className="flex flex-wrap gap-5 w-full  justify-center p-5 bg-yellow-900 bg-opacity-50 rounded-lg border border-white shadow-lg shadow-yellow-600">
           <div className="flex flex-wrap md:flex md:flex-row gap-2 w-full  justify-center p-5 bg-yellow-900 bg-opacity-40 rounded-lg">
+            <div>
+
             <h2 className="lg:text-3xl font-bold text-yellow-500 underline">Veterinaria - Turnero + E-commerce + integracion MP</h2>
               <div className="lg:w-[35rem] lg:h-[20rem] flex">
                 <iframe src="https://magalimartinveterinaria.vercel.app" className="lg:w-[40rem] lg:h-[20rem] rounded-lg border border-white">
@@ -134,6 +136,7 @@ export default function Home() {
                   </p>
               </div>
               <p className="text-center lg:text-2xl text-yellow-100">Esta hecho con NextJs y Firebase</p>
+            </div>
 
           </div>
           <div className="flex flex-wrap gap-5 lg:w-[5rem]   justify-center  bg-yellow-900 hover:bg-opacity-10 h-[4rem] shadow-lg shadow-yellow-600 rounded-lg">
