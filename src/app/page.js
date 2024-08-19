@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex lg:flex-row flex-col overflow-x-hidden overflow-y-scroll lg:overflow-hidden w-[90vw] mx-auto h-[100vh] lg:my-auto">
       <div className="flex w-[85vw] mx-auto flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center py-4 px-4 border-l-4 border-red-900 lg:w-[30vw] lg:h-[90vh] lg:my-auto"> 
-        <div className="flex  w-[30vw] mx-auto  h-[25rem]  ml-[12rem] lg:ml-[3rem]" >
+        <div className="flex  w-[30vw] mx-auto  h-[25rem]  ml-[2rem] lg:ml-[3rem]" >
           <Cubo  className="translate-x-[-20rem] translate-y-[-10rem] z-10"/>
           <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="w-[20rem] h-[20rem] rounded-full mt-[2rem]  -translate-x-[5rem] " />
           <img src="/fotopersonal.png" alt="logo" className="w-[20rem] h-[20rem] rounded-full mt-[5rem] -translate-x-[20rem] translate-y-[2rem]" />
