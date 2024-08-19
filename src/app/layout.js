@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="w-[20rem] md:w-[40rem] lg:w-[60rem] mx-auto">
           {/* <Cubo /> */}
-          <main>
+          <main >
             {children}
           </main>
       </body>
