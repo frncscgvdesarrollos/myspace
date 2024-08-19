@@ -10,7 +10,7 @@ export default function Home() {
           <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="w-[20rem] h-[20rem] rounded-full mt-[2rem]  -translate-x-[5rem] " />
           <img src="/fotopersonal.png" alt="logo" className="w-[20rem] h-[20rem] rounded-full mt-[5rem] -translate-x-[20rem] translate-y-[2rem]" />
         </div>
-        <span className="text-3xl w-[75vw] font-bold text-yellow-500 underline m-1 shadow-lg shadow-yellow-600 p-2 rounded-lg border border-white z-10 bg-yellow-500">Francisco Guerra</span>
+        <span className="text-3xl   font-bold text-yellow-500 underline m-1 shadow-lg shadow-yellow-600 p-2 rounded-lg border border-white z-10 bg-yellow-500">Francisco Guerra</span>
         {/* <span className="text-2xl font-bold text-orange-500 underline m-1">Fullstack Web Developer</span> */}
         <div className="w-[20rem] md:w-[30rem] bg-yellow-500  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
           <span className="text-base md:text-2xl font-bold text-gray-100  " >Actualmente : <span className="text-base md:text-2xl font-bold text-violet-200">Buscando trabajo.</span> </span>
@@ -129,7 +129,7 @@ export default function Home() {
             <div>
 
             <h2 className="lg:text-3xl font-bold text-yellow-500 underline">Veterinaria - Turnero + E-commerce + integracion MP</h2>
-              <div className="lg:w-[35rem] lg:h-[20rem] flex">
+              <div className="flex">
                 <iframe src="https://magalimartinveterinaria.vercel.app" className="lg:w-[40rem] lg:h-[20rem] rounded-lg border border-white">
                 </iframe>
                   <p className="text-center text-2xl text-yellow-100 lg:w-[20rem] lg:py-[2rem] lg:py-[6rem] transform rotate-[4deg] shadow-lg shadow-yellow-600 rounded-lg bg-yellow-500  h-fit">
