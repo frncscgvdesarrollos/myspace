@@ -10,9 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="w-[100vw] md:w-[40rem] lg:w-[60rem] mx-auto ">
-          <main >
             {children}
-          </main>
       </body>
     </html>
   );
