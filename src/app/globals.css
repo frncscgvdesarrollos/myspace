@@ -14,7 +14,9 @@ body {
   align-items: center;
 
 }
-
+.fondo{
+  background-image: url('/d.png');
+}
 .cambio{
   opacity: 1;
   animation: opacity 5s linear ;
