@@ -8,7 +8,7 @@ export default function Home() {
         <div className="flex  w-[30vw] mx-auto  h-[25rem]  ml-[1rem] lg:ml-[3rem]" >
           <Cubo  className="translate-x-[-20rem] translate-y-[-10rem] z-10"/>
           <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="w-[40rem] h-[20rem] rounded-full mt-[2rem]  -translate-x-[5rem] " />
-          <img src="/fotopersonal.png" alt="logo" className="w-[40rem] h-[20rem] rounded-full mt-[5rem] -translate-x-[4rem] lg:-translate-x-[20rem] translate-y-[2rem]" />
+          <img src="/fotopersonal.png" alt="logo" className="w-full h-full rounded-full mt-[5rem] -translate-x-[4rem] lg:-translate-x-[20rem] translate-y-[2rem]" />
         </div>
         <span className="text-3xl   font-bold text-yellow-200 underline m-1 shadow-lg shadow-yellow-600 p-2 rounded-lg border border-white z-10 bg-yellow-500">Francisco Guerra</span>
         <div className="flex flex-col mt-[2rem] lg:h-[25vh]">
