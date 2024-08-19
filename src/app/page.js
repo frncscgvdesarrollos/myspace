@@ -28,12 +28,12 @@ export default function Home() {
       </div>
       <div className="flex lg:w-[60vw]   bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden h-[100vh] align-middle flex-col border-l-4 border-red-900">
         <div className="flex flex-col gap-4 p-[1rem]">
-          <h1 className="text-3xl font-bold text-orange-300 underline m-1 border-b-4 border-orange-500 rounded-lg  lg:w-[54rem] text-right">Fullstack Web Developer</h1>
+          <h1 className="text-3xl font-bold text-orange-300 underline m-1 border-b-4 border-orange-500 rounded-lg   text-right">Fullstack Web Developer</h1>
         </div>
-        <div className="flex flex-col gap-4 p-4 my-[1rem]  lg:w-[57rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
-          <h3 className="text-3xl bg-yellow-600 lg:w-[14rem] rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-300 shadow-lg shadow-yellow-600 underline my-[2rem]">Hola Mundo!</h3>
+        <div className="flex flex-col gap-4 p-4 my-[1rem]  mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
+          <h3 className="text-3xl bg-yellow-600  rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-300 shadow-lg shadow-yellow-600 underline my-[2rem]">Hola Mundo!</h3>
           <div className="flex justify-evenly items-center w-full gap-5 lg:ml-[2rem] ">
-          <div className="lg:w-[20rem] lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white " >
+          <div className="lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white " >
             <p className="text-center text-xl lg:text-2xl text-yellow-100 p-4 ">Soy</p> <span>
 
               <div className="flex text-center justify-center items-center">
@@ -75,7 +75,7 @@ export default function Home() {
         </div>
 
         </div>
-        <div className="flex flex-col gap-4 p-4 my-[2rem]  lg:w-[57rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
+        <div className="flex flex-col gap-4 p-4 my-[2rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
           <span className="text-2xl font-bold text-yellow-400 underline mt-[2rem] rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-200 shadow-lg shadow-yellow-600 underline  p-2 w-[33rem] my-[1rem] bg-yellow-600">Algunas de las tecnologias que manejo son :</span>
           <div className="flex-wrap flex-col w-full gap-5 p-10 ">
           <div className="lg:w-[15rem] h-[3rem] bg-red-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
@@ -121,7 +121,7 @@ export default function Home() {
           </div>
 
         </div>
-        <div className="flex flex-col gap-4 lg:p-4 my-[2rem] lg:w-[57rem] lg:mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
+        <div className="flex flex-col gap-4 lg:p-4 my-[2rem] lg:mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
           <h3 className="text-2xl font-bold text-yellow-400 bg-yellow-600 lg:w-[12rem] p-2 rounded-lg border border-white bg-opacity-70 shadow-lg shadow-yellow-600 underline my-[1rem] ">Mis proyectos:</h3>
           <div className="flex flex-wrap gap-5 w-full  justify-center p-5 bg-yellow-900 bg-opacity-50 rounded-lg border border-white shadow-lg shadow-yellow-600">
           <div className="flex flex-wrap md:flex md:flex-row gap-2 w-full  justify-center p-5 bg-yellow-900 bg-opacity-40 rounded-lg">
