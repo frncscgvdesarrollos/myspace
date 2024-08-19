@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex lg:flex-row flex-col overflow-x-hidden overflow-y-scroll lg:overflow-hidden w-[90vw] mx-auto h-[100vh] lg:my-auto">
       <div className="flex w-[90vw] mx-auto flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center py-4 px-4 border-l-4 border-red-900 lg:w-[30vw] lg:h-[90vh] lg:my-auto"> 
-        <div className="flex  w-[85vw] mx-auto  h-[25rem]  ml-[3rem]" >
+        <div className="flex  w-[30vw] mx-auto  h-[25rem]  ml-[3rem]" >
           <Cubo  className="translate-x-[-20rem] translate-y-[-10rem] z-10"/>
           <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="w-[20rem] h-[20rem] rounded-full mt-[2rem]  -translate-x-[5rem] " />
           <img src="/fotopersonal.png" alt="logo" className="w-[20rem] h-[20rem] rounded-full mt-[5rem] -translate-x-[20rem] translate-y-[2rem]" />
@@ -32,7 +32,7 @@ export default function Home() {
         <div className="flex flex-col gap-4 p-[1rem] w-[50vw] mx-auto">
           <h1 className="text-3xl font-bold text-orange-300 underline m-1 border-b-4 border-orange-500 rounded-lg   text-right">Fullstack Web Developer</h1>
         </div>
-        <div className="flex flex-col gap-4 p-4 my-[1rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg lg:w-[55vw] mx-auto">
+        <div className="flex flex-col gap-4 p-4 my-[1rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg w-[55vw] mx-auto">
           <h3 className="text-3xl bg-yellow-600  rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-300 shadow-lg shadow-yellow-600 underline my-[2rem]">Hola Mundo!</h3>
         
           <div className="flex justify-evenly items-center w-full gap-5 ">
@@ -79,7 +79,7 @@ export default function Home() {
         </div>
 
         </div>
-        <div className="flex flex-col gap-4 p-4 my-[2rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg w-[90vw] lg:w-[55vw] mx-auto">
+        <div className="flex flex-col gap-4 p-4 my-[2rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg w-[55vw] mx-auto">
           <span className="text-2xl font-bold text-yellow-400 underline mt-[2rem] rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-200 shadow-lg shadow-yellow-600 underline  p-2 w-[33rem] my-[1rem] bg-yellow-600">Algunas de las tecnologias que manejo son :</span>
           <div className="flex-wrap flex-col w-full gap-5 p-10 ">
           <div className="lg:w-[15rem] h-[3rem] bg-red-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
@@ -125,7 +125,7 @@ export default function Home() {
           </div>
 
         </div>
-        <div className="flex flex-col gap-4 lg:p-4 my-[2rem] lg:mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg w-[90vw] lg:w-[55vw] mx-auto">
+        <div className="flex flex-col gap-4 lg:p-4 my-[2rem] lg:mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg w-[55vw] mx-auto">
           <h3 className="text-2xl font-bold text-yellow-400 bg-yellow-600 lg:w-[12rem] p-2 rounded-lg border border-white bg-opacity-70 shadow-lg shadow-yellow-600 underline my-[1rem] ">Mis proyectos:</h3>
           <div className="flex flex-wrap gap-5 w-full  justify-center p-5 bg-yellow-900 bg-opacity-50 rounded-lg border border-white shadow-lg shadow-yellow-600">
           <div className="flex flex-wrap md:flex md:flex-row gap-2 w-full  justify-center p-5 bg-yellow-900 bg-opacity-40 rounded-lg">
@@ -148,7 +148,7 @@ export default function Home() {
           </div>
           </div>
         </div>
-      <div className="flex flex-col gap-4 p-4  z-[999] border border-white shadow-lg shadow-yellow-600 rounded-lg w-[90vw] lg:w-[55vw] mx-auto " > 
+      <div className="flex flex-col gap-4 p-4  z-[999] border border-white shadow-lg shadow-yellow-600 rounded-lg w-[55vw] mx-auto " > 
         <h2 className="text-2xl font-bold text-yellow-600 my-[1rem]">En este momento puedes contactarme para realizar  Landings Page .</h2>
         <p className="text-1xl text-yellow-600 bg-yellow-200 p-10 rounded-lg bg-opacity-90 my-[1rem] ">
         <span className="text-2xl font-bold text-yellow-400 pb-5">Dejame explicarte que son </span><br/>
