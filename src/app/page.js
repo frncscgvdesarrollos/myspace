@@ -79,48 +79,50 @@ export default function Home() {
 
         </div>
         <div className="flex flex-col gap-4 p-4 my-[2rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg w-[90vw] lg:w-[55vw] mx-auto">
-          <span className="text-3xl bg-yellow-600  rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-300 shadow-lg shadow-yellow-600 underline my-[2rem]">Algunas de las tecnologias que manejo son :</span>
+          <span className="text-3xl bg-yellow-600  rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-300 shadow-lg shadow-yellow-600 underline my-[2rem]">Tecnologias con las que trabajo :</span>
           <div className="flex-wrap flex-col w-full gap-5 p-10 ">
-          <div className="lg:w-[15rem] h-[3rem] bg-red-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
+          <div className="lg:w-[15rem] h-[3rem] bg-red-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem] flex items-center gap-2 " >
 
               <p className="text-center text-2xl text-yellow-100">HTML</p>
+                <img src="/icons/html.png" alt="HTML" className="w-[2rem]" />
+          </div>
+          <div className="lg:w-[25rem] h-[3rem]  bg-blue-200 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem] flex items-center gap-2" >
+
+            <p className="text-center text-2xl text-blue-500 font-bold">CSS - Tailwind </p>
+            <img src="/icons/css.png" alt="Tailwind" className="w-[2rem]"/>
 
           </div>
-          <div className="lg:w-[25rem] h-[3rem]  bg-blue-200 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
-
-            <p className="text-center text-2xl text-blue-500 font-bold">CSS - tailwind - mobile first</p>
-
-          </div>
-        <div className="lg:w-[30rem] h-[3rem]  bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
+        <div className="lg:w-[30rem]  bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem] flex items-center gap-2" >
 
         <p className="text-center text-2xl text-yellow-100">Javascript</p>
-
+        <img src="/icons/js.png" alt="Javascript" className="w-[2rem]"/>
         </div>
-        <div className="lg:w-[35rem] h-[3rem]  bg-cyan-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem] " >
+        <div className="lg:w-[35rem]   bg-cyan-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem] flex items-center gap-2" >
 
           <p className="text-center text-2xl text-yellow-100">React</p>
+          <img src="/icons/react.png" alt="React" className="w-[2rem]"/>
 
           </div>
-          <div className="lg:w-[30rem] h-[3rem]  bg-green-700 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
+          <div className="lg:w-[30rem]   bg-green-700 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem] flex items-center gap-2" >
 
               <p className="text-center text-2xl text-yellow-500">Express</p>
-
+              <img src="/icons/express.png" alt="Express" className="w-[2rem]" />
           </div>
-          <div className="lg:w-[38rem] h-[3rem]  bg-gray-700 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
+          <div className="lg:w-[38rem]   bg-gray-700 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem] flex items-center gap-2" >
 
             <p className="text-center text-2xl text-white">NextJs</p>
-
+            <img src="/icons/next.png" alt="NextJs" className="w-[2rem]" />
           </div>
-          <div className="lg:w-[30rem] h-[3rem]  bg-lime-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
+          <div className="lg:w-[30rem]  bg-lime-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem] flex items-center gap-2" >
 
            <p className="text-center text-2xl text-yellow-100">MongoDB</p>
-
+            <img src="/icons/mongo.png" alt="MongoDB"  className="w-[2rem]"/>
           </div>
-          <div className="lg:w-[38rem] h-[3rem]  bg-orange-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
+          <div className="lg:w-[38rem]  bg-orange-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem] flex items-center gap-2" >
 
-<p className="text-center text-2xl text-yellow-100">Firebase</p>
-
-</div>
+            <p className="text-center text-2xl text-yellow-100">Firebase</p>
+                <img src="/icons/firebase.png" alt="Firebase" className="w-[2rem]" />
+          </div>
           </div>
 
         </div>
@@ -131,10 +133,10 @@ export default function Home() {
             <div className="w-[70vw]">
 
             <h2 className="lg:text-3xl text-xl font-bold text-yellow-500 underline my-[0.5rem]">Veterinaria - Turnero + E-commerce + integracion MP</h2>
-              <div className="flex w-full">
-                <iframe src="https://magalimartinveterinaria.vercel.app" className="lg:w-[40rem] w-[60%] lg:h-[20rem] rounded-lg border border-white">
+              <div className="flex w-full lg:justify-center lg:items-center">
+                <iframe src="https://magalimartinveterinaria.vercel.app" className="lg:w-[25vw] lg:mt-[1rem] w-[40%] lg:h-[20rem] rounded-lg border border-white">
                 </iframe>
-                  <p className="text-center text-2xl text-yellow-100 lg:w-[20rem] w-[40%] lg:py-[2rem] lg:py-[6rem] transform rotate-[4deg] shadow-lg shadow-yellow-600 rounded-lg bg-yellow-500  h-fit">
+                  <p className="text-center text-2xl text-yellow-100 lg:w-[20rem] w-[40%] lg:py-[2rem] lg:py-[6rem] lg:mt-[1rem] transform rotate-[4deg] shadow-lg shadow-yellow-600 rounded-lg bg-yellow-500  h-fit">
                     Este proyecto fue muy apasionante para mi porque es mi primera aplicacion web.                    
                   </p>
               </div>
