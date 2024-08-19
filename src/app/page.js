@@ -128,17 +128,17 @@ export default function Home() {
           <h3 className="text-3xl bg-yellow-600  rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-300 shadow-lg shadow-yellow-600 underline my-[2rem] ">Mis proyectos:</h3>
           <div className="flex flex-wrap gap-5 w-full  justify-center p-5 bg-yellow-900 bg-opacity-50 rounded-lg border border-white shadow-lg shadow-yellow-600">
           <div className="flex flex-wrap md:flex md:flex-row gap-2 w-full  justify-center p-5 bg-yellow-900 bg-opacity-40 rounded-lg">
-            <div className="w-[45vw]">
+            <div className="w-[70vw]">
 
-            <h2 className="lg:text-3xl font-bold text-yellow-500 underline">Veterinaria - Turnero + E-commerce + integracion MP</h2>
-              <div className="flex">
-                <iframe src="https://magalimartinveterinaria.vercel.app" className="lg:w-[40rem] lg:h-[20rem] rounded-lg border border-white">
+            <h2 className="lg:text-3xl text-xl font-bold text-yellow-500 underline my-[0.5rem]">Veterinaria - Turnero + E-commerce + integracion MP</h2>
+              <div className="flex w-full">
+                <iframe src="https://magalimartinveterinaria.vercel.app" className="lg:w-[40rem] w-[60%] lg:h-[20rem] rounded-lg border border-white">
                 </iframe>
-                  <p className="text-center text-2xl text-yellow-100 lg:w-[20rem] lg:py-[2rem] lg:py-[6rem] transform rotate-[4deg] shadow-lg shadow-yellow-600 rounded-lg bg-yellow-500  h-fit">
+                  <p className="text-center text-2xl text-yellow-100 lg:w-[20rem] w-[40%] lg:py-[2rem] lg:py-[6rem] transform rotate-[4deg] shadow-lg shadow-yellow-600 rounded-lg bg-yellow-500  h-fit">
                     Este proyecto fue muy apasionante para mi porque es mi primera aplicacion web.                    
                   </p>
               </div>
-              <p className="text-center lg:text-2xl text-yellow-100">Esta hecho con NextJs y Firebase</p>
+              <p className="text-center lg:text-2xl text-xl my-[1rem] text-yellow-100">Esta hecho con NextJs y Firebase</p>
             </div>
 
           </div>
