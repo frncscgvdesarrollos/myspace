@@ -4,14 +4,13 @@ import Cubo from "./components/Cubo";
 export default function Home() {
   return (
     <main className="flex lg:flex-row flex-col overflow-x-hidden overflow-y-scroll lg:overflow-hidden w-[90vw] mx-auto h-[100vh]">
-      <div className="flex flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center py-4 px-4 border-l-4 border-red-900 lg:w-[30vw] lg:h-[90vh]"> 
-
-        <div className="flex    lg:mt-[2rem] mx-auto w-[30rem] h-[25rem] " >
+      <div className="flex w-[90vw] mx-auto flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center py-4 px-4 border-l-4 border-red-900 lg:w-[30vw] lg:h-[90vh]"> 
+        <div className="flex  w-[85vw] mx-auto w-[30rem] h-[25rem] " >
           <Cubo  className="translate-x-[-20rem] translate-y-[-10rem] z-10"/>
           <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="w-[20rem] h-[20rem] rounded-full mt-[2rem]  -translate-x-[5rem] " />
           <img src="/fotopersonal.png" alt="logo" className="w-[20rem] h-[20rem] rounded-full mt-[5rem] -translate-x-[20rem] translate-y-[2rem]" />
         </div>
-        <span className="text-3xl font-bold text-yellow-500 underline m-1 shadow-lg shadow-yellow-600 p-2 rounded-lg border border-white z-10 bg-yellow-500">Francisco Guerra</span>
+        <span className="text-3xl w-[75vw] font-bold text-yellow-500 underline m-1 shadow-lg shadow-yellow-600 p-2 rounded-lg border border-white z-10 bg-yellow-500">Francisco Guerra</span>
         {/* <span className="text-2xl font-bold text-orange-500 underline m-1">Fullstack Web Developer</span> */}
         <div className="w-[20rem] md:w-[30rem] bg-yellow-500  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
           <span className="text-base md:text-2xl font-bold text-gray-100  " >Actualmente : <span className="text-base md:text-2xl font-bold text-violet-200">Buscando trabajo.</span> </span>
