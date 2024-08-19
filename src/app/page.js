@@ -13,21 +13,21 @@ export default function Home() {
           </div>
         </div>
         <span className="text-3xl   font-bold text-yellow-200 underline mt-[7vh] shadow-lg shadow-yellow-600 p-2 rounded-lg border border-white z-10 bg-yellow-500">Francisco Guerra</span>
-        <div className="flex flex-col lg:h-[20vh] mt-[1rem] p-4 gap-2">
-          <div className="w-[20rem] lg:w-[25vw] md:w-[30rem] bg-yellow-500  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
-            <span className="text-base md:text-xl  font-bold text-gray-100  " >Freelancer : <span className="text-base md:text-xl font-bold text-violet-200">Trabajos por encargo.</span> </span>
+        <div className="flex flex-col lg:h-[20vh]  py-6 gap-2">
+          <div className="w-[20rem] lg:w-[25vw] md:w-[30rem] bg-yellow-500  shadow-lg shadow-yellow-600 mt-[0.5rem] px-2 rounded-lg border border-white py-[0.5rem]">
+            <span className="text-base md:text-xl lg:btext-lg  font-bold text-gray-100  " >Freelancer : <span className="text-base md:text-xl lg:btext-lg font-bold text-violet-200">Trabajos por encargo.</span> </span>
           </div>
-          <div className="w-[20rem] lg:w-[25vw] md:w-[30rem] bg-yellow-500   shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
-            <span className="text-base md:text-xl font-bold text-gray-100  " >Idiomas : <span className="text-base md:text-xl font-bold text-violet-200">Español / Ingles B1.</span> </span>
+          <div className="w-[20rem] lg:w-[25vw] md:w-[30rem] bg-yellow-500   shadow-lg shadow-yellow-600 mt-[0.5rem] px-2 rounded-lg border border-white py-[0.5rem]">
+            <span className="text-base md:text-xl font-bold text-gray-100  " >Idiomas : <span className="text-base md:text-xl lg:btext-lg font-bold text-violet-200">Español / Ingles B1.</span> </span>
           </div>
-          <div className="w-[20rem] lg:w-[25vw] md:w-[30rem] bg-yellow-500  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
-            <span className="text-base md:text-xl font-bold text-gray-100  " >Cursando : <span className="text-base md:text-xl font-bold text-violet-200">Tec. Desarrollo de software.</span> </span>
+          <div className="w-[20rem] lg:w-[25vw] md:w-[30rem] bg-yellow-500  shadow-lg shadow-yellow-600 mt-[0.5rem] pl-2 rounded-lg border border-white py-[0.5rem]">
+            <span className="text-base md:text-xl font-bold text-gray-100  " >Cursando : <span className="text-base md:text-xl lg:btext-lg font-bold text-violet-200">Tec. Des de software.</span> </span>
           </div>
 
         </div>
         {/* <span className="text-2xl font-bold text-orange-500 underline m-1">Fullstack Web Developer</span> */}
       </div>
-      <div className="flex flex-col w-[85vw] h-[100%] mx-auto lg:h-[90vh] bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden lg:my-auto lg:w-[70vw] lg:h-[90vh] align-middle flex-col border-l-4 border-red-900">
+      <div className="flex flex-col w-[100vw] h-[100%] mx-auto lg:h-[90vh] bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden lg:my-auto lg:w-[70vw] lg:h-[90vh] align-middle flex-col border-l-4 border-red-900">
         <div className="flex flex-col gap-4 p-[1rem] w-[50vw] mx-auto">
           <h1 className="text-3xl font-bold text-orange-300 underline m-1 border-b-4 border-orange-500 rounded-lg   text-right">Fullstack Web Developer</h1>
         </div>
@@ -79,7 +79,7 @@ export default function Home() {
 
         </div>
         <div className="flex flex-col gap-4 p-4 my-[2rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg w-[55vw] mx-auto">
-          <span className="text-2xl font-bold text-yellow-400 underline mt-[2rem] rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-200 shadow-lg shadow-yellow-600 underline  p-2 w-[33rem] my-[1rem] bg-yellow-600">Algunas de las tecnologias que manejo son :</span>
+          <span className="text-3xl bg-yellow-600  rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-300 shadow-lg shadow-yellow-600 underline my-[2rem]">Algunas de las tecnologias que manejo son :</span>
           <div className="flex-wrap flex-col w-full gap-5 p-10 ">
           <div className="lg:w-[15rem] h-[3rem] bg-red-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
 
@@ -125,7 +125,7 @@ export default function Home() {
 
         </div>
         <div className="flex flex-col gap-4 lg:p-4 my-[2rem] lg:mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg w-[55vw] mx-auto">
-          <h3 className="text-2xl font-bold text-yellow-400 bg-yellow-600 lg:w-[12rem] p-2 rounded-lg border border-white bg-opacity-70 shadow-lg shadow-yellow-600 underline my-[1rem] ">Mis proyectos:</h3>
+          <h3 className="text-3xl bg-yellow-600  rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-300 shadow-lg shadow-yellow-600 underline my-[2rem] ">Mis proyectos:</h3>
           <div className="flex flex-wrap gap-5 w-full  justify-center p-5 bg-yellow-900 bg-opacity-50 rounded-lg border border-white shadow-lg shadow-yellow-600">
           <div className="flex flex-wrap md:flex md:flex-row gap-2 w-full  justify-center p-5 bg-yellow-900 bg-opacity-40 rounded-lg">
             <div className="w-[45vw]">
@@ -148,7 +148,7 @@ export default function Home() {
           </div>
         </div>
       <div className="flex flex-col gap-4 p-4  z-[999] border border-white shadow-lg shadow-yellow-600 rounded-lg w-[55vw] mx-auto " > 
-        <h2 className="text-2xl font-bold text-yellow-600 my-[1rem]">En este momento puedes contactarme para realizar  Landings Page .</h2>
+        <h2 className="text-3xl bg-yellow-600  rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-300 shadow-lg shadow-yellow-600 underline my-[2rem] ">En este momento puedes contactarme para realizar  Landings Page .</h2>
         <p className="text-1xl text-yellow-600 bg-yellow-200 p-10 rounded-lg bg-opacity-90 my-[1rem] ">
         <span className="text-2xl font-bold text-yellow-400 pb-5">Dejame explicarte que son </span><br/>
             Una Landing Page es una página web diseñada específicamente para convertir visitantes en leads o clientes. 
