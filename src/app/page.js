@@ -3,7 +3,7 @@ import Cubo from "./components/Cubo";
 
 export default function Home() {
   return (
-    <main className="flex lg:flex-row flex-col overflow-x-hidden overflow-y-scroll lg:overflow-hidden w-[100vw] mx-auto h-[100vh] lg:my-auto">
+    <main className="flex lg:flex-row flex-col overflow-x-hidden overflow-y-scroll lg:overflow-hidden w-[100vw] lg:w-[90vw] mx-auto h-[100vh] lg:my-auto">
       <div className="flex w-[100vw] mx-auto flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center lg:py-4 lg:px-4 border-l-4 border-red-900 lg:w-[30vw] lg:h-[90vh]  lg:my-auto"> 
         <div className="flex  h-[40vh] mx-auto w-[100vw] justify-center " >
           <Cubo className=""  />
