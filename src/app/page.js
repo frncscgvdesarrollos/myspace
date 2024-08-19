@@ -3,15 +3,17 @@ import Cubo from "./components/Cubo";
 
 export default function Home() {
   return (
-    <main className="flex lg:flex-row flex-col overflow-x-hidden overflow-y-scroll lg:overflow-hidden w-[90vw] mx-auto h-[100vh] lg:my-auto">
-      <div className="flex w-[85vw] mx-auto flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center py-4 px-4 border-l-4 border-red-900 lg:w-[30vw] lg:h-[90vh]  lg:my-auto"> 
-        <div className="flex  mx-auto  h-[40vh] mx-auto " >
-          <Cubo  />
-          <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="" />
-          <img src="/fotopersonal.png" alt="logo" className="" />
+    <main className="flex lg:flex-row flex-col overflow-x-hidden overflow-y-scroll lg:overflow-hidden w-[100vw] mx-auto h-[100vh] lg:my-auto">
+      <div className="flex w-[100vw] mx-auto flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center lg:py-4 lg:px-4 border-l-4 border-red-900 lg:w-[30vw] lg:h-[90vh]  lg:my-auto"> 
+        <div className="flex  h-[40vh] mx-auto w-[100vw] justify-center " >
+          <Cubo className=""  />
+          <div className="flex h-[40vh] w-[40vh] justify-center">
+          <img src="/webs.png" alt="https://www.flaticon.es/iconos-gratis/sitio-web" className="h-[30vh] translate-y-[4rem] translate-x-[0rem] mx-auto rounded-full" />
+          <img src="/fotopersonal.png" alt="logo" className="h-[30vh] rounded-full mx-auto translate-y-[9rem] translate-x-[-9rem]" />
+          </div>
         </div>
         <span className="text-3xl   font-bold text-yellow-200 underline mt-[7vh] shadow-lg shadow-yellow-600 p-2 rounded-lg border border-white z-10 bg-yellow-500">Francisco Guerra</span>
-        <div className="flex flex-col lg:h-[40vh] border-4 border-white my-auto pt-[7vh] px-4">
+        <div className="flex flex-col lg:h-[40vh] my-auto py-[1vh] p-4">
           <div className="w-[20rem] lg:w-[25vw] md:w-[30rem] bg-yellow-500 h-[3rem]  shadow-lg shadow-yellow-600 mt-[2rem] p-2 rounded-lg border border-white">
             <span className="text-base md:text-2xl  font-bold text-gray-100  " >Freelancer : <span className="text-base md:text-xl font-bold text-violet-200">Trabajos por encargo.</span> </span>
           </div>
