@@ -27,10 +27,10 @@ export default function Home() {
         </div>
       </div>
       <div className="flex w-[60vw] lg:h-[100vh] bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden h-[100vh] lg:w-[70vw] align-middle flex-col border-l-4 border-red-900">
-        <div className="flex flex-col gap-4 p-[1rem]">
+        <div className="flex flex-col gap-4 p-[1rem] w-[55vw] mx-auto">
           <h1 className="text-3xl font-bold text-orange-300 underline m-1 border-b-4 border-orange-500 rounded-lg   text-right">Fullstack Web Developer</h1>
         </div>
-        <div className="flex flex-col gap-4 p-4 my-[1rem]  mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
+        <div className="flex flex-col gap-4 p-4 my-[1rem]  mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg w-[55vw] mx-auto">
           <h3 className="text-3xl bg-yellow-600  rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-300 shadow-lg shadow-yellow-600 underline my-[2rem]">Hola Mundo!</h3>
           <div className="flex justify-evenly items-center w-full gap-5 lg:ml-[2rem] ">
           <div className="lg:h-[10rem] bg-yellow-500 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex border border-white " >
@@ -75,7 +75,7 @@ export default function Home() {
         </div>
 
         </div>
-        <div className="flex flex-col gap-4 p-4 my-[2rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
+        <div className="flex flex-col gap-4 p-4 my-[2rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg w-[55vw] mx-auto">
           <span className="text-2xl font-bold text-yellow-400 underline mt-[2rem] rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-200 shadow-lg shadow-yellow-600 underline  p-2 w-[33rem] my-[1rem] bg-yellow-600">Algunas de las tecnologias que manejo son :</span>
           <div className="flex-wrap flex-col w-full gap-5 p-10 ">
           <div className="lg:w-[15rem] h-[3rem] bg-red-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay my-[1rem]" >
@@ -121,7 +121,7 @@ export default function Home() {
           </div>
 
         </div>
-        <div className="flex flex-col gap-4 lg:p-4 my-[2rem] lg:mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg">
+        <div className="flex flex-col gap-4 lg:p-4 my-[2rem] lg:mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg w-[55vw] mx-auto">
           <h3 className="text-2xl font-bold text-yellow-400 bg-yellow-600 lg:w-[12rem] p-2 rounded-lg border border-white bg-opacity-70 shadow-lg shadow-yellow-600 underline my-[1rem] ">Mis proyectos:</h3>
           <div className="flex flex-wrap gap-5 w-full  justify-center p-5 bg-yellow-900 bg-opacity-50 rounded-lg border border-white shadow-lg shadow-yellow-600">
           <div className="flex flex-wrap md:flex md:flex-row gap-2 w-full  justify-center p-5 bg-yellow-900 bg-opacity-40 rounded-lg">
@@ -144,7 +144,7 @@ export default function Home() {
           </div>
           </div>
         </div>
-      <div className="flex flex-col gap-4 p-4  z-[999] border border-white shadow-lg shadow-yellow-600 rounded-lg lg:w-[57rem] mx-auto " > 
+      <div className="flex flex-col gap-4 p-4  z-[999] border border-white shadow-lg shadow-yellow-600 rounded-lg w-[55vw] mx-auto mx-auto " > 
         <h2 className="text-2xl font-bold text-yellow-600 my-[1rem]">En este momento puedes contactarme para realizar  Landings Page .</h2>
         <p className="text-1xl text-yellow-600 bg-yellow-200 p-10 rounded-lg bg-opacity-90 my-[1rem] ">
         <span className="text-2xl font-bold text-yellow-400 pb-5">Dejame explicarte que son </span><br/>
