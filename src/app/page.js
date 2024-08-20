@@ -108,22 +108,33 @@ export default function Home() {
               <p className="text-center text-2xl text-yellow-500">Express</p>
               <img src="/icons/express.png" alt="Express" className="w-[2rem]" />
           </div>
-          <div className="lg:max-w-[40rem]    bg-gray-700 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay flex items-center gap-2" >
+          <div className="lg:max-w-[40rem]    bg-gray-900 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay flex items-center gap-2" >
 
             <p className="text-center text-2xl text-white">NextJs</p>
-            <img src="/icons/next.png" alt="NextJs" className="w-[2rem]" />
+            <img src="/icons/next.png" alt="NextJs" className="w-[2rem] bg-gray-300 rounded-full p-1"  />
           </div>
           <div className="lg:max-w-[30rem]   bg-lime-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay  flex items-center gap-2" >
-
-           <p className="text-center text-2xl text-yellow-100">MongoDB</p>
-            <img src="/icons/mongo.png" alt="MongoDB"  className="w-[2rem]"/>
+              <p className="text-center text-2xl text-yellow-100">MongoDB</p>
+                <img src="/icons/mongo.png" alt="MongoDB"  className="w-[2rem]"/>
           </div>
           <div className="lg:max-w-[38rem]   bg-orange-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay  flex items-center gap-2" >
-
-            <p className="text-center text-2xl text-yellow-100">Firebase</p>
+                <p className="text-center text-2xl text-yellow-100">Firebase</p>
                 <img src="/icons/firebase.png" alt="Firebase" className="w-[2rem]" />
           </div>
+          <div className="lg:max-w-[30rem]   bg-gray-600 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay  flex items-center gap-2" >
+              <p className="text-center text-2xl text-yellow-100">Git - Github</p>
+              <img src="/icons/github.png" alt="Firebase" className="w-[2rem]" />
           </div>
+          <hr className="w-full h-[10px] bg-yellow-400 rounded-lg shadow-lg shadow-red-900 my-2"/>
+          <div className="flex-wrap flex-col flex w-full gap-3  ">
+          <div className="lg:max-w-[20rem]   bg-blue-400 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay  flex items-center gap-2" >
+              <p className="text-center text-2xl text-yellow-100">Scrum</p>
+              <img src="/icons/scrum.png" alt="Firebase" className="w-[2rem]" />
+          </div>
+          </div>
+          
+          </div>
+          
 
         </div>
         <div className="flex flex-col gap-4 lg:p-4 my-[2rem] lg:mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg w-[90w] lg:w-[55vw] mx-auto">
