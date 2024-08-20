@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
       <head>
 
       </head>
-      <body className="w-[100vw] md:w-[40rem] lg:w-[60rem] mx-auto">
+      <body className="w-[100%] md:w-[40rem] lg:w-[60rem] lg:mx-auto overflow-x-hidden">
             {children}
       </body>
     </html>
