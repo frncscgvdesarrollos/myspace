@@ -14,9 +14,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="../public/icons/favicon.ico" />
+      <head >
+        <link rel="icon" href="/icons/favicon.ico" type="image/x-icon" />
       </head>
      <body className="w-[100%] md:w-[40rem] lg:w-[60rem] lg:mx-auto overflow-x-hidden">
             {children}
