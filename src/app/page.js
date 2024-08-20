@@ -3,8 +3,8 @@ import Cubo from "./components/Cubo";
 
 export default function Home() {
   return (
-    <main className="flex flex-col lg:flex-row absolute top-0 left-0   lg:position-fixed lg:top-[1vh] lg:left-[5vw] l lg:overflow-hidden w-[100vw] lg:w-[90vw] mx-auto lg:h-[100vh] lg:my-auto ">
-      <div className="aside flex w-[100vw] mx-auto flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center lg:py-4 lg:px-4 lg:border-l-4 border-red-900 lg:w-[30vw] lg:h-[90vh]  lg:my-auto"> 
+    <div className="flex flex-col lg:flex-row absolute top-0 left-0   lg:position-fixed lg:top-[1vh] lg:left-[5vw] l lg:overflow-hidden w-[100vw] lg:w-[90vw] mx-auto lg:h-[100vh] lg:my-auto ">
+      <header className="aside flex w-[100vw] mx-auto flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center lg:py-4 lg:px-4 lg:border-l-4 border-red-900 lg:w-[30vw] lg:h-[90vh]  lg:my-auto"> 
         <div className="flex  h-[40vh] mx-auto w-[100vw] justify-center lg:w-[30vw] " >
           <Cubo className=""  />
           <div className="flex h-[40vh] w-[40vh] justify-center translate-x-[1rem]">
@@ -26,8 +26,8 @@ export default function Home() {
 
         </div>
         {/* <span className="text-2xl font-bold text-orange-500 underline m-1">Fullstack Web Developer</span> */}
-      </div>
-      <div className="fondo flex flex-col w-[100vw] lg:w-[60vw] h-[100%] mx-auto lg:h-[90vh] bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden lg:my-auto lg:w-[70vw] lg:h-[90vh] align-middle flex-col border-l-4 border-red-900">
+      </header>
+      <main className="fondo flex flex-col w-[100vw] lg:w-[60vw] h-[100%] mx-auto lg:h-[90vh] bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden lg:my-auto lg:w-[70vw] lg:h-[90vh] align-middle flex-col border-l-4 border-red-900">
         <div className="flex flex-col gap-4 p-[1rem] w-[90vw] lg:w-[55vw] mx-auto">
           <h1 className="text-3xl font-bold text-orange-300 underline m-1 border-b-4 border-orange-500 rounded-lg   text-right">Fullstack Web Developer</h1>
         </div>
@@ -193,7 +193,7 @@ export default function Home() {
         </div>
       </div>
 
-      </div>
-    </main>
+      </main>
+    </div>
   );
 }
