@@ -36,7 +36,7 @@ export default function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md z-[999] relative lg:h-full lg:w-[70vw]">
+    <form onSubmit={handleSubmit} className=" mx-auto bg-yellow-100 p-8 rounded-lg shadow-md z-[999] relative lg:h-full lg:w-[50vw] lg:h-fit ">
       <div className="mb-4">
         <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="nombre">
           Nombre
@@ -47,7 +47,7 @@ export default function ContactForm() {
           id="nombre"
           value={form.nombre}
           onChange={handleChange}
-          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full px-3 py-2 border border-yellow-300 bg-yellow-50 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500 "
           placeholder="Tu nombre"
         />
       </div>
@@ -61,7 +61,7 @@ export default function ContactForm() {
           id="email"
           value={form.email}
           onChange={handleChange}
-          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full px-3 py-2 border border-yellow-300 bg-yellow-50 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
           placeholder="Tu correo electrónico"
         />
       </div>
@@ -74,15 +74,15 @@ export default function ContactForm() {
           id="mensaje"
           value={form.mensaje}
           onChange={handleChange}
-          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 lg:h-[40vh]"
+          className="w-full px-3 py-2 border border-yellow-300 bg-yellow-50 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500 lg:h-[40vh]"
           placeholder="Escribe tu mensaje aquí"
           rows="4"
         ></textarea>
       </div>
-      <div className="text-center">
+      <div className="text-center w-full flex justify-end">
         <button
           type="submit"
-          className="bg-blue-500 text-white font-bold py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300"
+          className="bg-yellow-700 lg:w-1/3 ml-auto  text-white font-bold py-2 px-4 rounded-full hover:bg-yellow-500 transition duration-300"
         >
           Enviar
         </button>

@@ -36,15 +36,15 @@ export default function Home() {
       </header>
       <main className="fondo flex flex-col w-[100vw] lg:w-[60vw] h-[100%] mx-auto lg:h-[90vh] bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden lg:my-auto lg:w-[70vw] lg:h-[90vh] align-middle flex-col border-l-4 border-red-900">
         <div className="flex flex-row items-end justify-end gap-4 p-[1rem] w-[90vw] lg:w-[55vw] mx-auto">
-          <h1 className="text-3xl font-bold text-orange-300 underline m-1  rounded-lg">Fullstack Web Developer</h1>
+          <h1 className="text-3xl font-bold text-orange-700 underline m-1  rounded-lg bg-yellow-600 shadow-lg shadow-yellow-600 bg-opacity-40">Fullstack Web Developer</h1>
           <button onClick={ () => handleMessage() } className="text-3xl font-bold text-orange-300 underline m-1 rounded-lg   text-right">✉️</button>
         </div>
         {message?
-        <div className="absolute top-0 left-0 w-[90vw] h-[90vh] overflow-hidden mt-[3rem] flex flex-wrap lg:p-10 bg-black bg-opacity-30">
-          <div className="w-full h-full z-[992] flex">
-            <div className="z-[999] relative bg-black bg-opacity-90 rounded-lg w-[30vw] flex flex-col items-center justify-center h-[30vh] mx-auto">
-                <h2 className="text-3xl font-bold text-white underline m-1">Dejame tu mensaje ! </h2>
-                <p className="text-3xl font-bold text-white underline m-1 text-center mt-[1rem]">Ya sea por una consulta o una propuesta de trabajo. </p>
+        <div className="absolute top-0 left-0 w-[90vw] h-[90vh] overflow-hidden mt-[3rem] flex flex-wrap lg:p-10 bg-black bg-opacity-30 " >
+          <div className="w-full h-full z-[992] flex ">
+            <div className=" z-[999] relative border border-yellow-300 bg-yellow-100   rounded-lg w-[30vw] flex flex-col items-center justify-center h-[30vh] mx-auto">
+                <h2 className="text-3xl font-[700]   m-1">Dejame tu mensaje ! </h2>
+                <p className="text-3xl font-lg m-1 text-center mt-[1rem]">Ya sea por una consulta o una propuesta de trabajo. </p>
             </div>
                 <ContactForm />
                 <button onClick={handleMessage} className="absolute top-0 left-0   opacity-90">&#10006;</button>

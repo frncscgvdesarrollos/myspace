@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <head >
         <link rel="icon" href="/icons/favicon.ico" type="image/x-icon" />
       </head>
-     <body className="w-[100%] md:w-[40rem] lg:w-[60rem] lg:mx-auto overflow-x-hidden">
+     <body className="w-[100%] md:w-[40rem] lg:w-[60rem] lg:mx-auto overflow-x-hidden lg:overflow-y-hidden">
             {children}
       </body>
     </html>
