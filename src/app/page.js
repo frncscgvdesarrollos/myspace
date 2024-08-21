@@ -1,7 +1,14 @@
-import Image from "next/image";
+'use client'
+import { useState } from "react";
 import Cubo from "./components/Cubo";
+import ContactForm from "./components/ContactForm";
+
 
 export default function Home() {
+  const[message, setMessage] = useState(false);
+  function handleMessage(){
+    setMessage(!message);
+  }
   return (
     <div className="flex flex-col lg:flex-row absolute top-0 left-0   lg:position-fixed lg:top-[1vh] lg:left-[5vw] l lg:overflow-hidden w-[100vw] lg:w-[90vw] mx-auto lg:h-[100vh] lg:my-auto ">
       <header className="aside flex w-[100vw] mx-auto flex-col bg-gray-700 lg:bg-gray-100 justify-start items-center lg:py-4 lg:px-4 lg:border-l-4 border-red-900 lg:w-[30vw] lg:h-[90vh]  lg:my-auto"> 
@@ -28,11 +35,25 @@ export default function Home() {
         {/* <span className="text-2xl font-bold text-orange-500 underline m-1">Fullstack Web Developer</span> */}
       </header>
       <main className="fondo flex flex-col w-[100vw] lg:w-[60vw] h-[100%] mx-auto lg:h-[90vh] bg-gray-200 items-start p-4 justify-start lg:overflow-y-scroll overflow-x-hidden lg:my-auto lg:w-[70vw] lg:h-[90vh] align-middle flex-col border-l-4 border-red-900">
-        <div className="flex flex-col gap-4 p-[1rem] w-[90vw] lg:w-[55vw] mx-auto">
-          <h1 className="text-3xl font-bold text-orange-300 underline m-1 border-b-4 border-orange-500 rounded-lg   text-right">Fullstack Web Developer</h1>
+        <div className="flex flex-row items-end justify-end gap-4 p-[1rem] w-[90vw] lg:w-[55vw] mx-auto">
+          <h1 className="text-3xl font-bold text-orange-300 underline m-1  rounded-lg">Fullstack Web Developer</h1>
+          <button onClick={ () => handleMessage() } className="text-3xl font-bold text-orange-300 underline m-1 rounded-lg   text-right">✉️</button>
         </div>
+        {message?
+        <div className="absolute top-0 left-0 w-[90vw] h-[90vh] overflow-hidden mt-[3rem] flex flex-wrap lg:p-10 bg-black bg-opacity-30">
+          <div className="w-full h-full z-[992] flex">
+            <div className="z-[999] relative bg-black bg-opacity-90 rounded-lg w-[30vw] flex flex-col items-center justify-center h-[30vh] mx-auto">
+                <h2 className="text-3xl font-bold text-white underline m-1">Dejame tu mensaje ! </h2>
+                <p className="text-3xl font-bold text-white underline m-1 text-center mt-[1rem]">Ya sea por una consulta o una propuesta de trabajo. </p>
+            </div>
+                <ContactForm />
+                <button onClick={handleMessage} className="absolute top-0 left-0   opacity-90">&#10006;</button>
+          </div>
+        </div>
+        : null
+        }
         <div className="flex flex-col gap-4 p-4 my-[1rem] mx-auto border border-white shadow-lg shadow-yellow-600 rounded-lg w-[90vw] lg:w-[55vw] mx-auto">
-          <h3 className="text-3xl bg-yellow-600  rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-300 shadow-lg shadow-yellow-600 underline my-[2rem]">Hola Mundo!</h3>
+          <h3 className="text-3xl bg-yellow-600  rounded-lg border border-white bg-opacity-70 p-2 font-bold text-yellow-300 shadow-lg shadow-yellow-600 underline my-[2rem]">Hola <span className="hover:animate-bounce">🌎</span>! </h3>
         
           <div className="flex flex-col md:flex-row justify-evenly items-center w-full gap-5 ">
           <div className="lg:h-[10rem] w-[80vw] lg:w-[20rem] bg-yellow-500 shadow-lg shadow-yellow-500 p-2 rounded-lg cambio flex flex-col border border-white justify-center  " >
@@ -83,52 +104,52 @@ export default function Home() {
           <div className="flex-wrap flex-col flex w-full gap-3 p-10 ">
           <div className="lg:w-[15rem] h-[3rem] bg-red-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay  flex items-center gap-2 " >
 
-              <p className="text-center text-2xl text-yellow-100">HTML</p>
+              <p className="text-center text-2xl text-yellow-100 font-[600]">HTML</p>
                 <img src="/icons/html.png" alt="HTML" className="w-[2rem]" />
           </div>
           <div className="lg:w-[25rem] h-[3rem]  bg-blue-200 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay  flex items-center gap-2" >
 
-            <p className="text-center text-2xl text-blue-500 font-bold">CSS - Tailwind </p>
+            <p className="text-center text-2xl text-blue-500 font-[600]">CSS - Tailwind </p>
             <img src="/icons/css.png" alt="Tailwind" className="w-[2rem]"/>
 
           </div>
         <div className="lg:max-w-[28rem]  bg-yellow-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay  flex items-center gap-2" >
 
-        <p className="text-center text-2xl text-yellow-100">Javascript</p>
+        <p className="text-center text-2xl text-gray-900 font-[600]">Javascript</p>
         <img src="/icons/js.png" alt="Javascript" className="w-[2rem]"/>
         </div>
         <div className="lg:max-w-[38rem]    bg-cyan-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay flex items-center gap-2" >
 
-          <p className="text-center text-2xl text-yellow-100">React</p>
+          <p className="text-center text-2xl text-yellow-100 font-[600]">React</p>
           <img src="/icons/react.png" alt="React" className="w-[2rem]"/>
 
           </div>
           <div className="lg:max-w-[30rem]    bg-green-700 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay  flex items-center gap-2" >
 
-              <p className="text-center text-2xl text-yellow-500">Express</p>
+              <p className="text-center text-2xl text-yellow-500 font-[600]">Express</p>
               <img src="/icons/express.png" alt="Express" className="w-[2rem]" />
           </div>
           <div className="lg:max-w-[40rem]    bg-gray-900 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay flex items-center gap-2" >
 
-            <p className="text-center text-2xl text-white">NextJs</p>
+            <p className="text-center text-2xl text-white font-[600]">NextJs</p>
             <img src="/icons/next.png" alt="NextJs" className="w-[2rem] bg-gray-300 rounded-full p-1"  />
           </div>
           <div className="lg:max-w-[30rem]   bg-lime-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay  flex items-center gap-2" >
-              <p className="text-center text-2xl text-yellow-100">MongoDB</p>
+              <p className="text-center text-2xl text-yellow-100 font-[600]">MongoDB</p>
                 <img src="/icons/mongo.png" alt="MongoDB"  className="w-[2rem]"/>
           </div>
           <div className="lg:max-w-[38rem]   bg-orange-500 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay  flex items-center gap-2" >
-                <p className="text-center text-2xl text-yellow-100">Firebase</p>
+                <p className="text-center text-2xl text-yellow-100 font-[600]">Firebase</p>
                 <img src="/icons/firebase.png" alt="Firebase" className="w-[2rem]" />
           </div>
           <div className="lg:max-w-[30rem]   bg-gray-600 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay  flex items-center gap-2" >
-              <p className="text-center text-2xl text-yellow-100">Git - Github</p>
+              <p className="text-center text-2xl text-yellow-100 font-[600]">Git - Github</p>
               <img src="/icons/github.png" alt="Firebase" className="w-[2rem]" />
           </div>
           <hr className="w-full h-[10px] bg-yellow-400 rounded-lg shadow-lg shadow-red-900 my-2"/>
           <div className="flex-wrap flex-col flex w-full gap-3  ">
           <div className="lg:max-w-[20rem]   bg-blue-400 shadow-lg shadow-yellow-600 p-2 rounded-lg cambio delay  flex items-center gap-2" >
-              <p className="text-center text-2xl text-yellow-100">Scrum</p>
+              <p className="text-center text-2xl text-yellow-100 font-[600]">Scrum</p>
               <img src="/icons/scrum.png" alt="Firebase" className="w-[2rem]" />
           </div>
           </div>

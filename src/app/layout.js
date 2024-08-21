@@ -6,7 +6,6 @@ export const metadata = {
   description: "Desarrollador Web Full Stack",
   keywords: "Francisco Guerra, Full Stack Developer, Desarrollador Web, Portfolio, JavaScript, React, Web Development, Portafolio, Argentino La pampa Santa Rosa",
   author: "Francisco Guerra",
-  viewport: "width=device-width, initial-scale=1.0",
   robots: "index, follow",
   canonical: "https://frncscgvdesarrollos.vercel.app",
 };
