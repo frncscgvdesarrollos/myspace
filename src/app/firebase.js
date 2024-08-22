@@ -35,12 +35,21 @@ export default app;
 export async function sendMessage(message) {
     const messagesRef = collection(db, "messages");
     await addDoc(messagesRef, message);
+    const k = query(collection(db, "vistas"), where("id", "==", 1));
+    const querySnapshot = await getDocs(k);
+    querySnapshot.forEach((doc) => {
+        updateDoc(doc.ref, {
+            mensajes: doc.data().mensajes + 1
+        });
+    });
+    return true;
 }
 
 export async function getMessages() {
     const messagesRef = collection(db, "messages");
     const messagesSnapshot = await getDocs(messagesRef);
     const messages = messagesSnapshot.docs.map((doc) => doc.data());
+    
     return messages;
 }
 

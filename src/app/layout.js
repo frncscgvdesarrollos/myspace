@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   async function handleVisitas () {
     try {
-      await updateVisit();
+      await updateVisit().then((res) => console.log(res));
     } catch (error) {
       console.log(error);
     }
