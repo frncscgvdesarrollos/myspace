@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, addDoc} from "firebase/firestore";
+import { getFirestore, collection, addDoc , getDocs, deleteDoc ,updateDoc, where, query } from "firebase/firestore";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -26,7 +26,34 @@ const db = getFirestore(app);
 
 export default app;
 
+
+
+
+
+
+/* MENSAJES */
 export async function sendMessage(message) {
     const messagesRef = collection(db, "messages");
     await addDoc(messagesRef, message);
+}
+
+export async function getMessages() {
+    const messagesRef = collection(db, "messages");
+    const messagesSnapshot = await getDocs(messagesRef);
+    const messages = messagesSnapshot.docs.map((doc) => doc.data());
+    return messages;
+}
+
+
+/*Info visitas */
+
+export async function updateVisit(){
+    const k = query(collection(db, "vistas"), where("id", "==", 1));
+    const querySnapshot = await getDocs(k);
+    querySnapshot.forEach((doc) => {
+        updateDoc(doc.ref, {
+            visitas: doc.data().visitas + 1
+        });
+    });
+    return true;
 }

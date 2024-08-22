@@ -1,3 +1,4 @@
+import { updateVisit } from "./firebase";
 import "./globals.css";
 
 
@@ -11,6 +12,15 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  async function handleVisitas () {
+    try {
+      await updateVisit();
+    } catch (error) {
+      console.log(error);
+    }
+  }
+ handleVisitas();
+ 
   return (
     <html lang="en">
       <head >
