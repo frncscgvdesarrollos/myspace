@@ -40,7 +40,7 @@ export default function Home() {
           <button onClick={ () => handleMessage() } className="text-3xl font-bold text-orange-300 underline m-1 rounded-lg   text-right">✉️</button>
         </div>
         {message?
-        <div className="fixed z-[1100] top-0 left-0 w-[100vw] lg:w-[90vw] h-[100vh] lg:h-[90vh] overflow-hidden mt-[3rem] flex flex-col lg:flex-wrap lg:p-10 bg-black bg-opacity-30 " >
+        <div className="fixed z-[1100] top-0 left-0 w-[100vw] lg:w-[90vw] h-[100vh] lg:h-[90vh] lg:ml-[5vw] overflow-hidden mt-[3rem] flex flex-col lg:flex-wrap lg:p-10 bg-black bg-opacity-30 " >
           <div className="w-full h-full z-[992] flex flex-col lg:flex-row ">
             <div className=" z-[999] relative border border-yellow-300 bg-yellow-100   rounded-lg w-[90vw] lg:w-[30vw] flex flex-col items-center justify-center h-[30vh] mx-auto">
                 <h2 className="text-3xl font-[700]   m-1">Dejame tu mensaje ! </h2>
